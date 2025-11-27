@@ -1,3 +1,5 @@
+The official website for the **Seattle Community Fridge**, found here: (https://seattlecommunityfridge.org/). We are a mutual aid group that provides refrigerators and pantries in the city of Seattle in order to combat food insecurity.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
