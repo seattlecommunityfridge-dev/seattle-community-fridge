@@ -1,7 +1,6 @@
 'use client';
 import { useState } from "react";
 import Navbar from "./navbar_v2";
-import Sidebar from "./sidebar";
 import {motion, AnimatePresence} from 'framer-motion';
 
 const Navigation = () => {
@@ -11,7 +10,6 @@ const Navigation = () => {
     }
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
             <Navbar />
         </>
     )
