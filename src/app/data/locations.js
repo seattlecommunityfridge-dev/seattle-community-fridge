@@ -8,7 +8,13 @@ export const location_data = [
             lat: 47.67947780936359,
             lng: -122.35579540104665
         },
-        "image": "/fridge-images/Phinney.jpg"
+        "image": "/fridge-images/Phinney.jpg",
+        "closest_stops": [
+            {
+                line: "5",
+                stop_name: "Greenwood Ave N & N 70th St"
+            }
+        ]
     },
     {
         "name": "Dunlap/Rainier Beach",
@@ -19,7 +25,21 @@ export const location_data = [
             lat: 47.52789683813191,
             lng: -122.27300637540732
         },
-        "image": "/fridge-images/Dunlap-RV 1.jpg"
+        "image": "/fridge-images/Dunlap-RV 1.jpg",
+        "closest_stops": [
+            {
+                line: "7",
+                stop_name: "Rainier Ave S & S Rose St"
+            },
+            {
+                line: "107",
+                stop_name: "Rainier Ave S & S Henderson St"
+            },
+            {
+                line: "1 Line",
+                stop_name: "Rainier Beach"
+            }
+        ]
     },
     {
         "name": "North Beacon Hill",
@@ -29,7 +49,17 @@ export const location_data = [
             lat: 47.59123936774281,
             lng: -122.3166102713094
         },
-        "image": "/fridge-images/NBH 2.jpg"
+        "image": "/fridge-images/NBH 2.jpg",
+        "closest_stops": [
+            {
+                line: "36",
+                stop_name: "14th Ave S & Golf Dr S"
+            }, 
+            {
+                line: "60",
+                stop_name: "12th Ave S & S Judkins St"
+            } 
+        ]
     },
     {
         "name": "Capitol Hill",
@@ -40,7 +70,17 @@ export const location_data = [
             lat: 47.62650480775329,
             lng: -122.30745876505564
         },
-        "image": "/fridge-images/Cap Hill 5.jpg"
+        "image": "/fridge-images/Cap Hill 5.jpg",
+        "closest_stops": [
+            {
+                line: "12",
+                stop_name: "19th Ave E & E Roy St"
+            }, 
+            {
+                line: "43",
+                stop_name: "E Thomas St & 16th Ave E"
+            } 
+        ]
     },
     {
         "name": "LGBTQ+ Center",
@@ -51,7 +91,21 @@ export const location_data = [
             lat: 47.61554205613653,
             lng: -122.32654650438295
         },
-        "image": "/fridge-images/LGBTQ Plus 2.jpg"
+        "image": "/fridge-images/LGBTQ Plus 2.jpg",
+        "closest_stops": [
+            {
+                line: "12",
+                stop_name: "E Pine St & Belmont Ave"
+            }, 
+            {
+                line: "11",
+                stop_name: "Bellevue Ave & E Olive St"
+            }, 
+            {
+                line: "8",
+                stop_name: "E Denny Way & Bellevue Ave E"
+            } 
+        ]
     },
     {
         "name": "Burien",
@@ -61,7 +115,13 @@ export const location_data = [
             lat: 47.495071426540626,
             lng: -122.32111328435012
         },
-	"image": "/fridge-images/Burien.jpg"
+        "image": "/fridge-images/Burien.jpg",
+        "closest_stops": [
+            {
+                line: "128",
+                stop_name: "4th Ave SW & SW 116th St"
+            }
+        ]
     },
     {
         "name": "Estelita’s Library (Central District)",
@@ -71,6 +131,20 @@ export const location_data = [
             lat: 47.600396775707445,
             lng: -122.2972817120421
         },
-        "image": "/fridge-images/Estelitas.jpg"
+        "image": "/fridge-images/Estelitas.jpg",
+        "closest_stops": [
+            {
+                line: "8",
+                stop_name: "S Jackson St & Martin L King Jr Way S"
+            },
+            {
+                line: "27",
+                stop_name: "E Yesler Way / 27th Ave S"
+            },
+            {
+                line: "48",
+                stop_name: "23rd Ave S & E Yesler Way"
+            }
+        ]
     }
 ];
