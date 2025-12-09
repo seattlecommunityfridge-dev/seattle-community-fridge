@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import Sidebar from "./components/navigation/sidebar";
 import Navigation from './components/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
