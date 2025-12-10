@@ -32,7 +32,7 @@ export const location_data = [
                 stop_name: "Rainier Ave S & S Rose St"
             },
             {
-                line: "107",
+                line: "106, 107",
                 stop_name: "Rainier Ave S & S Henderson St"
             },
             {
@@ -52,13 +52,13 @@ export const location_data = [
         "image": "/fridge-images/NBH 2.jpg",
         "closest_stops": [
             {
-                line: "36",
-                stop_name: "14th Ave S & Golf Dr S"
-            }, 
-            {
-                line: "60",
+                line: "36, 60 (NB)",
                 stop_name: "12th Ave S & S Judkins St"
-            } 
+            },
+            {
+                line: "36, 60 (SB)",
+                stop_name: "14th Ave S & Golf Dr S"
+            }
         ]
     },
     {
@@ -74,19 +74,23 @@ export const location_data = [
         "closest_stops": [
             {
                 line: "12",
-                stop_name: "19th Ave E & E Roy St"
+                stop_name: "19th Ave E & E Aloha St"
             }, 
             {
-                line: "43",
-                stop_name: "E Thomas St & 16th Ave E"
-            } 
+                line: "48",
+                stop_name: "23rd Ave E & E Aloha St"
+            }, 
+            {
+                line: "10",
+                stop_name: "15th Ave E & E Aloha St"
+            }
         ]
     },
     {
         "name": "LGBTQ+ Center",
         "address": "400 E Pine St, Seattle, WA 98122",
         "desc": "Located inside the center",
-        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open. (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
+        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open (Tuesday-Saturday). (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
         "coord": {
             lat: 47.61554205613653,
             lng: -122.32654650438295
@@ -94,17 +98,21 @@ export const location_data = [
         "image": "/fridge-images/LGBTQ Plus 2.jpg",
         "closest_stops": [
             {
-                line: "12",
-                stop_name: "E Pine St & Belmont Ave"
+                line: "3, 10, 11, 12, 49",
+                stop_name: "E Pine St & Bellevue Ave"
             }, 
             {
-                line: "11",
-                stop_name: "Bellevue Ave & E Olive St"
+                line: "3, 11",
+                stop_name: "Bellevue Ave & E Olive Way"
             }, 
             {
                 line: "8",
-                stop_name: "E Denny Way & Bellevue Ave E"
-            } 
+                stop_name: "E Denny Way & Melrose Ave/Bellevue Ave"
+            },
+            {
+                line: "1 Line",
+                stop_name: "Capitol Hill"
+            }
         ]
     },
     {
@@ -115,34 +123,38 @@ export const location_data = [
             lat: 47.495071426540626,
             lng: -122.32111328435012
         },
-        "image": "/fridge-images/Burien.jpg",
+	    "image": "/fridge-images/Burien.jpg",
         "closest_stops": [
             {
                 line: "128",
-                stop_name: "4th Ave SW & SW 116th St"
+                stop_name: "S 112th St & 10th Ave S (1/2 mile south)"
+            },
+            {
+                line: "132",
+                stop_name: "S 120th St & Des Moines Memorial Dr S (1 mile northwest)"
             }
         ]
     },
     {
         "name": "Estelita’s Library (Central District)",
         "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-        "full_description": "Estelita's Library's fridge is now available! The full-sized fridge, public telephone (provided by Futel), and free WiFi are fully operational. The large pantry, street sink, and mutual aid station are currently under construction.",
+        "full_description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational. The street sink is currently under construction.",
         "coord": {
             lat: 47.600396775707445,
             lng: -122.2972817120421
         },
-        "image": "/fridge-images/Estelitas.jpg",
+        "image": "/fridge-images/Estelitas 1.jpg",
         "closest_stops": [
             {
-                line: "8",
+                line: "8 (NB), 14",
                 stop_name: "S Jackson St & Martin L King Jr Way S"
             },
             {
-                line: "27",
-                stop_name: "E Yesler Way / 27th Ave S"
+                line: "8 (SB), 27",
+                stop_name: "E Yesler Way & 27th Ave S"
             },
             {
-                line: "48",
+                line: "4, 48",
                 stop_name: "23rd Ave S & E Yesler Way"
             }
         ]
