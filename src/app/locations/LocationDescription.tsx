@@ -27,21 +27,21 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                                 {description}
                             </p>
 
-                            <h3 className="font-semibold sm:text-2xl">
+                            <h3 className="font-semibold sm:text-2xl pt-3">
                                 Closest Stops
                             </h3>
-                            <table className="table-auto">
-                                <thead>
+                            <table className="table-auto w-full">
+                                <thead className="border-b-2">
                                     <tr>
-                                        <th>Route</th>
-                                        <th>Stop Name</th>
+                                        <th className="text-left w-1/4">Route</th>
+                                        <th className="text-left w-3/4">Stop Name</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {closest_stops.map((route) => (
                                       <tr key={`${route.line}-${route.stop_name}`}>
-                                        <td>{route.line}</td>
-                                        <td>{route.stop_name}</td>
+                                        <td className="pr-6 whitespace-nowrap text-sm font-medium">{route.line}</td>
+                                        <td className="whitespace-nowrap text-sm font-medium">{route.stop_name}</td>
                                       </tr>
                                     ))}
                                 </tbody>
