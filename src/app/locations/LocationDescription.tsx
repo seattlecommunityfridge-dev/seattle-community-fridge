@@ -39,9 +39,9 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                                 </thead>
                                 <tbody>
                                     {closest_stops.map((route) => (
-                                      <tr key={`${route.line}-${route.stop_name}`}>
-                                        <td className="pr-6 whitespace-nowrap text-sm font-medium">{route.line}</td>
-                                        <td className="whitespace-nowrap text-sm font-medium">{route.stop_name}</td>
+                                      <tr key={`${route.line}-${route.stop_name}`} className="border-b-1">
+                                        <td className="pr-6 text-sm font-medium">{route.line}</td>
+                                        <td className="text-sm font-medium">{route.stop_name}</td>
                                       </tr>
                                     ))}
                                 </tbody>
