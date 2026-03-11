@@ -52,10 +52,14 @@
   }
 
   h2.question { /* Used in FAQ */
-    @apply text-3xl sm:text-4xl mt-8 text-blue-500;
+    @apply text-3xl sm:text-4xl mt-8 text-blue-500 text-center;
   }
   
   p.answer {
+    @apply text-black text-xl w-2/3 mx-auto my-2;
+  }
+
+  ul.answer {
     @apply text-black text-xl w-2/3 mx-auto my-2;
   }
 

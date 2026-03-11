@@ -15,8 +15,8 @@ type NavigationProps = {
 const navigation: NavigationProps[] = [
   { name: 'SCF', href: '/', current: false },
   { name: 'Locations', href: '/locations', current: false },
+  { name: 'Get Food', href: '/getfood', current: false },
   { name: 'Volunteer', href: '/volunteer', current: false },
-  { name: 'FAQ', href: '/faq', current: false },
   { name: 'Calendar', href: '/calendar', current: false },
   { name: 'About Us', href: '/about', current: false },
 ]

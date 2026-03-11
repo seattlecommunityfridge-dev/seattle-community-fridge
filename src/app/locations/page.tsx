@@ -1,6 +1,8 @@
 'use client';
 import { APIProvider, Map, AdvancedMarker, MapCameraProps, MapCameraChangedEvent } from "@vis.gl/react-google-maps";
 import { useState, useCallback } from "react";
+import { Button } from '@headlessui/react'
+
 import { Location, location_data } from '../data/locations';
 import LocationDescription from './LocationDescription';
 
@@ -54,14 +56,14 @@ export default function Locations() {
                                     <p>{location.address}</p>
                                     <p>{location.desc ? location.desc : ""}</p>
                                 </div>
-                                <button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
+                                <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
                                     setSelectedLocation(location);
                                     setMarkerLocation(location.coord);
                                     const newCameraProps = cameraProps;
                                     newCameraProps.center = location.coord;
                                     newCameraProps.zoom = 15;
                                     setCameraProps(newCameraProps);
-                                }}>View</button>
+                                }}>View</Button>
                             </div>
                         ))}
                     </div>
