@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Navigation from './components/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Component as Carousel } from './components/CarouselComponent'
 
 export default function Home() {
 
@@ -27,17 +28,7 @@ export default function Home() {
         <h1>SEATTLE COMMUNITY FRIDGE</h1>
         <div className="block lg:flex w-10/12 mx-auto">
           <div className="w-full my-auto lg:w-1/2">
-	      <Image 
-              	width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />
-              {/* {
-                pics.map((pic: string, i: number) => (
-                  <div key={i.toString()} className="w-full sm:w-1/4 overflow-x-hidden">
-                    <img src={pic} key={i.toString()} alt={i.toString()}></img>
-                  </div>
-                )
-
-                )
-              } */}
+	         <Carousel />
           </div>
           <div className="w-full lg:w-1/3 mx-auto text-black text-xl sm:text-3xl">
               <p className="text-gray-700">
