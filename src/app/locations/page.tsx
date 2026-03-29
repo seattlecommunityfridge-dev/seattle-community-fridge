@@ -45,13 +45,13 @@ export default function Locations() {
                         </APIProvider>
                     </div>
                     <div className="w-full sm:w-1/2 bg-white rounded-b-lg sm:rounded-r-lg text-black space-y-6 p-4 pb-10 px-2">
-                        <h2 className="location">
+                        <h2 className="location font-JosefinSans">
                             Click "View" next to a fridge location to see details.
                         </h2>
                         {location_data.map((location, i) => (
                             <div key={`${location}_${i}`} className="flex justify-between px-7">
                                 <div className="block">
-                                    <p className="font-bold">{location.name}</p>
+                                    <p className="font-bold font-JosefinSans">{location.name}</p>
                                     <p>{location.address}</p>
                                     <p>{location.desc ? location.desc : ""}</p>
                                 </div>

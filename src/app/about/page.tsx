@@ -27,7 +27,7 @@ export default function About() {
                 }
             </div>
             <div>
-                <h1 className="text-3xl sm:text-6xl mt-14 font-SauceTomato text-blue-500">What is Mutual Aid?</h1>
+                <h1 className="text-3xl sm:text-6xl mt-14 font-JosefinSans text-blue-500">What is Mutual Aid?</h1>
                 <p className="text-black text-xl w-2/3 mx-auto my-8">
                     Mutual aid is solidarity, not charity.  <span className="font-bold">Everyone looks out for one another,</span> gives what they can, and takes what they need.
                     Mutual aid is a <span className="font-bold">community-led solution</span> for meeting those needs and filling the gaps. Mutual Aid acknowledges the fact that well-intentioned charity work can often 
