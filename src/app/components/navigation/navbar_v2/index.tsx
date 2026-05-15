@@ -70,7 +70,7 @@ export default function Navbar() {
                 <Image 
                   className="h-10 w-auto"
                   width={400} height={400}
-                  src="/SCF_logo.png" alt="Seattle Community Fridge"
+                  src="/scf_40@2x.png" alt="Seattle Community Fridge"
                 />
               </Link>
             </div>
