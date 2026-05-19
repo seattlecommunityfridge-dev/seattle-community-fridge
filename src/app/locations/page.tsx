@@ -13,7 +13,7 @@ type DescriptionProps = {
 
 export default function Locations() {
 
-    const logo_img = "https://storage.googleapis.com/seattle-community-fridge/logo/SCF%20logo.jpg";
+    const logo_img = "/scf_36@2x.png";
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
     const [dialogLocation, setDialogLocation] = useState("");
 
