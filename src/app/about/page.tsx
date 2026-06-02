@@ -1,3 +1,5 @@
+import Partner from './Partner';
+
 export default function About() {
     const pics = [
         "https://storage.googleapis.com/seattle-community-fridge/home/20240814_081814.jpg",
@@ -33,6 +35,27 @@ export default function About() {
                     Mutual aid is a <span className="font-bold">community-led solution</span> for meeting those needs and filling the gaps. Mutual Aid acknowledges the fact that well-intentioned charity work can often 
                     lead to paternalism and exacerbation of the inequities underlying poverty and hunger. It actively seeks to avoid this trap.
                 </p>
+            </div>
+            <div>
+                <h1 className="text-3xl sm:text-6xl mt-14 font-JosefinSans text-blue-500">Partners</h1>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Check out some of our partners!
+                </p>
+                <div className="w-2/3 mx-auto flex flex-wrap gap-2 justify-between items-center">
+                    <Partner image={"/partners/BallardFoodBank.png"} name="Ballard Food Bank" url="https://www.ballardfoodbank.org/" />
+                    <Partner image={"/partners/UDFoodBank.png"} name="University Food Bank" url="https://www.udistrictfoodbank.org/" />
+                    <Partner image={"/partners/FreeFoodForAll.png"} name="Free Food For All" url="https://www.freefoodforall.org/" />
+                    <Partner image={"/partners/QueerTheLand.png"} name="Queer The Land" url="https://queertheland.org/" />
+                    <Partner image={"/partners/EstelitasLibrary.png"} name="Estelita's Library" url="https://estelitaslibrary.org/" />
+                    <Partner image={"/partners/MagpieThrift.png"} name="Magpie Thrift" url="https://www.magpiethriftseattle.com/" />
+                    <Partner image={"/partners/GulletStuffer.png"} name="Gullet Stuffer" url="https://www.gulletstuffer.com/" />
+                    <Partner image={"/partners/ImpactSalish.png"} name=" Impact | Salish Sea Elementary" url="https://www.impactps.org/salishsea/" />
+                    <Partner image={"/partners/SweetPeaBakery.png"} name="Sweetpea's Cakes" url="https://www.cakesbysweetpea.com/" />
+                    <Partner image={"/partners/EpiphanySchool.png"} name="Epiphany School" url="https://www.epiphanyschool.org/" />
+                    <Partner image={"/partners/SuperJockNJill.png"} name="Super Jock 'N Jill" url="https://www.superjocknjill.com/" />
+                    <Partner image={"/partners/StJosephParish.png"} name="St. Joseph Parish" url="https://www.stjosephparish.org/" />
+                    <Partner image={"/partners/WoodlandParkChurch.png"} name="Woodland Park Presbyterian Church" url="https://www.wppcseattle.org/" />
+                </div>
             </div>
         </section>
     )
