@@ -17,6 +17,9 @@ export default function About() {
                 non-hierarchically with group consensus for ideas and decision-making. We have no office, no overhead, and no staff; all of us are community members just like you and the people we serve.
                 All our efforts and the donations we receive are dedicated to ensuring that our neighbors are fed.
             </p>
+            <p className="text-black text-xl w-2/3 mx-auto my-8">
+                Seattle Community Fridge does not discriminate against any person on the basis of race, color, religious affiliation, sex, age, national origin, marital status, sexual orientation, disability, or gender identity or expression.
+            </p>
             <div className="sm:flex sm:space-x-4 space-y-3 sm:space-y-0 mt-4 px-6 justify-center">
                 {
                   pics.map((pic: string, i: number) => (
@@ -37,10 +40,7 @@ export default function About() {
                 </p>
             </div>
             <div>
-                <h1 className="text-3xl sm:text-6xl mt-14 font-JosefinSans text-blue-500">Partners</h1>
-                <p className="text-black text-xl w-2/3 mx-auto my-8">
-                    Check out some of our partners!
-                </p>
+                <h1 className="text-3xl sm:text-6xl mt-14 font-JosefinSans text-blue-500">Friends, Allies, and Supporters</h1>
                 <div className="w-2/3 mx-auto flex flex-wrap gap-2 justify-between items-center">
                     <Partner image={"/partners/BallardFoodBank.png"} name="Ballard Food Bank" url="https://www.ballardfoodbank.org/" />
                     <Partner image={"/partners/UDFoodBank.png"} name="University Food Bank" url="https://www.udistrictfoodbank.org/" />
@@ -55,6 +55,10 @@ export default function About() {
                     <Partner image={"/partners/SuperJockNJill.png"} name="Super Jock 'N Jill" url="https://www.superjocknjill.com/" />
                     <Partner image={"/partners/StJosephParish.png"} name="St. Joseph Parish" url="https://www.stjosephparish.org/" />
                     <Partner image={"/partners/WoodlandParkChurch.png"} name="Woodland Park Presbyterian Church" url="https://www.wppcseattle.org/" />
+                    <Partner image={"/partners/StJohnUnitedCoCreate.png"} name="St. John United Lutheran Church" url="https://stjohnunited.org/" />
+                    <Partner image={"/partners/QueenAnneFarmersMarket.gif"} name="Queen Anne Farmers Market" url="https://qafm.org/" />
+                    <Partner image={"/partners/LFFC.png"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
+                    <Partner image={"/partners/EverettFreePantry.jpg"} name="Everett Free Pantry" url="https://www.instagram.com/everettfreepantry/" />
                 </div>
             </div>
         </section>
