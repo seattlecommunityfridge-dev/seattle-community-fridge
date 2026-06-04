@@ -45,6 +45,7 @@ export default function About() {
                     <Partner image={"/partners/BallardFoodBank.png"} name="Ballard Food Bank" url="https://www.ballardfoodbank.org/" />
                     <Partner image={"/partners/UDFoodBank.png"} name="University Food Bank" url="https://www.udistrictfoodbank.org/" />
                     <Partner image={"/partners/FreeFoodForAll.png"} name="Free Food For All" url="https://www.freefoodforall.org/" />
+                    <Partner image={"/partners/FoodNotBombs.png"} name="Food Not Bombs" url="https://seattlefoodnotbombs.org/" />
                     <Partner image={"/partners/QueerTheLand.png"} name="Queer The Land" url="https://queertheland.org/" />
                     <Partner image={"/partners/EstelitasLibrary.png"} name="Estelita's Library" url="https://estelitaslibrary.org/" />
                     <Partner image={"/partners/MagpieThrift.png"} name="Magpie Thrift" url="https://www.magpiethriftseattle.com/" />
@@ -57,7 +58,8 @@ export default function About() {
                     <Partner image={"/partners/WoodlandParkChurch.png"} name="Woodland Park Presbyterian Church" url="https://www.wppcseattle.org/" />
                     <Partner image={"/partners/StJohnUnitedCoCreate.png"} name="St. John United Lutheran Church" url="https://stjohnunited.org/" />
                     <Partner image={"/partners/QueenAnneFarmersMarket.gif"} name="Queen Anne Farmers Market" url="https://qafm.org/" />
-                    <Partner image={"/partners/LFFC.png"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
+                    <Partner image={"/partners/LFFC Logo.svg"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
+                    <Partner image={"/partners/50thStreetFreePantry.jpg"} name="50th Street Free Pantry" url="https://www.instagram.com/50thstreetfreepantry" />
                     <Partner image={"/partners/EverettFreePantry.jpg"} name="Everett Free Pantry" url="https://www.instagram.com/everettfreepantry/" />
                 </div>
             </div>
