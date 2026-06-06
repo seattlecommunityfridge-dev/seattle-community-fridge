@@ -45,7 +45,6 @@ export default function About() {
                     <Partner image={"/partners/BallardFoodBank.png"} name="Ballard Food Bank" url="https://www.ballardfoodbank.org/" />
                     <Partner image={"/partners/UDFoodBank.png"} name="University Food Bank" url="https://www.udistrictfoodbank.org/" />
                     <Partner image={"/partners/FreeFoodForAll.png"} name="Free Food For All" url="https://www.freefoodforall.org/" />
-                    <Partner image={"/partners/FoodNotBombs.png"} name="Food Not Bombs" url="https://seattlefoodnotbombs.org/" />
                     <Partner image={"/partners/QueerTheLand.png"} name="Queer The Land" url="https://queertheland.org/" />
                     <Partner image={"/partners/EstelitasLibrary.png"} name="Estelita's Library" url="https://estelitaslibrary.org/" />
                     <Partner image={"/partners/MagpieThrift.png"} name="Magpie Thrift" url="https://www.magpiethriftseattle.com/" />
@@ -61,6 +60,7 @@ export default function About() {
                     <Partner image={"/partners/LFFC Logo.svg"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
                     <Partner image={"/partners/50thStreetFreePantry.jpg"} name="50th Street Free Pantry" url="https://www.instagram.com/50thstreetfreepantry" />
                     <Partner image={"/partners/EverettFreePantry.jpg"} name="Everett Free Pantry" url="https://www.instagram.com/everettfreepantry/" />
+                    <Partner image={"/partners/FoodNotBombs.png"} name="Food Not Bombs" url="https://seattlefoodnotbombs.org/" />
                 </div>
             </div>
         </section>
