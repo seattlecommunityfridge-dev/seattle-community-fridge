@@ -52,15 +52,15 @@ export default function About() {
                     <Partner image={"/partners/ImpactSalish.png"} name=" Impact | Salish Sea Elementary" url="https://www.impactps.org/salishsea/" />
                     <Partner image={"/partners/SweetPeaBakery.png"} name="Sweetpea's Cakes" url="https://www.cakesbysweetpea.com/" />
                     <Partner image={"/partners/EpiphanySchool.png"} name="Epiphany School" url="https://www.epiphanyschool.org/" />
-                    <Partner image={"/partners/SuperJockNJill.png"} name="Super Jock 'N Jill" url="https://www.superjocknjill.com/" />
-                    <Partner image={"/partners/StJosephParish.png"} name="St. Joseph Parish" url="https://www.stjosephparish.org/" />
-                    <Partner image={"/partners/WoodlandParkChurch.png"} name="Woodland Park Presbyterian Church" url="https://www.wppcseattle.org/" />
-                    <Partner image={"/partners/StJohnUnitedCoCreate.png"} name="St. John United Lutheran Church" url="https://stjohnunited.org/" />
                     <Partner image={"/partners/QueenAnneFarmersMarket.gif"} name="Queen Anne Farmers Market" url="https://qafm.org/" />
                     <Partner image={"/partners/LFFC Logo.svg"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
                     <Partner image={"/partners/50thStreetFreePantry.jpg"} name="50th Street Free Pantry" url="https://www.instagram.com/50thstreetfreepantry" />
                     <Partner image={"/partners/EverettFreePantry.jpg"} name="Everett Free Pantry" url="https://www.instagram.com/everettfreepantry/" />
+                    <Partner image={"/partners/SuperJockNJill.png"} name="Super Jock 'N Jill" url="https://www.superjocknjill.com/" />
                     <Partner image={"/partners/FoodNotBombs.png"} name="Food Not Bombs" url="https://seattlefoodnotbombs.org/" />
+                    <Partner image={"/partners/StJosephParish.png"} name="St. Joseph Parish" url="https://www.stjosephparish.org/" />
+                    <Partner image={"/partners/WoodlandParkChurch.png"} name="Woodland Park Presbyterian Church" url="https://www.wppcseattle.org/" />
+                    <Partner image={"/partners/StJohnUnitedCoCreate.png"} name="St. John United Lutheran Church" url="https://stjohnunited.org/" />
                 </div>
             </div>
         </section>
