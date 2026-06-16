@@ -2,6 +2,7 @@
 import { APIProvider, Map, AdvancedMarker, MapCameraProps, MapCameraChangedEvent } from "@vis.gl/react-google-maps";
 import { useState, useCallback } from "react";
 import { Button } from '@headlessui/react';
+import Link from 'next/link'
 import { Location, location_data } from '../data/locations';
 import LocationDescription from './LocationDescription';
 
@@ -17,8 +18,8 @@ export default function Locations() {
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
     const [dialogLocation, setDialogLocation] = useState("");
 
-    // Starts centered on the LGBTQ+ center since it's closest to the middle of the city
-    const [markerLocation, setMarkerLocation] = useState(location_data[4]['coord']); 
+    // Starts centered on the Capitol Hill fridge since it's closest to the middle of the city
+    const [markerLocation, setMarkerLocation] = useState(location_data[3]['coord']); 
 
     const INITIAL_CAMERA = {
         center: markerLocation,
@@ -64,6 +65,7 @@ export default function Locations() {
                                 }}>View</Button>
                             </div>
                         ))}
+                        <p>Check Seattle's <Link href="https://www.pantrymap.org/map">Pantry Map</Link> for local pantries near you as well!</p>
                     </div>
                 </div>
                 { selectedLocation != null && 
