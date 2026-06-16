@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Faq() {
     return (
         <section className="text-center">
-            <h1 className="text-3xl sm:text-6xl mt-8 font-SauceTomato text-blue-500">FREQUENTLY ASKED QUESTIONS</h1>
+            <h1 className="text-3xl sm:text-6xl mt-8 font-JosefinSans text-blue-500">FREQUENTLY ASKED QUESTIONS</h1>
             <div>
                 <h2 className="question">What can I donate?</h2>
                 <p className="answer">

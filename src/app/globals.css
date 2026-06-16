@@ -4,7 +4,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   
-  --font-SauceTomato: 'Sauce Tomato', "sans-serif";
+  --font-JosefinSans: 'Josefin Sans', "sans-serif";
+  --font-Spectral: 'Spectral', "serif";
 }
 
 @layer utilities {
@@ -41,10 +42,11 @@
       )
       rgb(var(--background-start-rgb));
     /* background-image: url('https://storage.googleapis.com/el-gran-taco-seattle/construction/whitebackground_scaled_0.5.jpg'); */
+    @apply font-Spectral;
   }
 
   h1 { /* Used at the top of most pages. */
-    @apply text-blue-500 text-3xl sm:text-6xl font-SauceTomato text-center my-6;
+    @apply text-blue-500 text-3xl sm:text-6xl font-JosefinSans font-bold text-center my-6;
   }
 
   h2.location { /* Used in location page */
@@ -52,7 +54,7 @@
   }
 
   h2.question { /* Used in FAQ */
-    @apply text-3xl sm:text-4xl mt-8 text-blue-500;
+    @apply font-JosefinSans text-3xl sm:text-4xl mt-8 text-blue-500;
   }
   
   p.answer {
@@ -67,7 +69,12 @@
 
 @layer base {
   @font-face {
-    font-family: 'Sauce Tomato';
-    src: url(./fonts/Sauce\ Tomato.otf) format('opentype');
+    font-family: 'Josefin Sans';
+    src: url(./fonts/JosefinSans-Bold.ttf)
+  }
+
+  @font-face {
+    font-family: 'Spectral';
+    src: url(./fonts/Spectral-Regular.ttf)
   }
 }

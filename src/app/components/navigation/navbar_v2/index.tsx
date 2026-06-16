@@ -51,7 +51,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="relative bg-gray-800/50 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
+      className="relative bg-gray-800/50 font-JosefinSans after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10"
     >
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
@@ -70,7 +70,7 @@ export default function Navbar() {
                 <Image 
                   className="h-10 w-auto"
                   width={400} height={400}
-                  src="/SCF_logo.png" alt="Seattle Community Fridge"
+                  src="/scf_40@2x.png" alt="Seattle Community Fridge"
                 />
               </Link>
             </div>
