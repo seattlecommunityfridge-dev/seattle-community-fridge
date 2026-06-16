@@ -87,36 +87,39 @@ export const location_data = [
         ]
     },
     {
-        "name": "LGBTQ+ Center",
-        "address": "400 E Pine St, Seattle, WA 98122",
-        "desc": "Located inside the center",
-        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open (Tuesday-Saturday). (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
+        "name": "U District",
+        "address": "5017 Roosevelt Way NE, Seattle, WA 98105",
+        "desc": "University District Food Bank (UDFB)",
+        "full_description": "Sponsored by the University District Food Bank (https://www.udistrictfoodbank.org/). Available outside of the food bank’s normal operating hours, so you can come even if the bank is closed.",
         "coord": {
-            lat: 47.61554205613653,
-            lng: -122.32654650438295
+            lat: 47.665530932465245,
+            lng: -122.31779660392418
         },
-        "image": "/fridge-images/LGBTQ Plus 2.jpg",
         "closest_stops": [
             {
-                line: "3, 10, 11, 12, 49",
-                stop_name: "E Pine St & Bellevue Ave"
+                line: "45, 75",
+                stop_name: "University Way NE & NE 50th St"
             }, 
             {
-                line: "3, 11",
-                stop_name: "Bellevue Ave & E Olive Way"
+                line: "1 Line/2 Line",
+                stop_name: "U District"
             }, 
             {
-                line: "8",
-                stop_name: "E Denny Way & Melrose Ave/Bellevue Ave"
+                line: "67 (NB)",
+                stop_name: "11th Ave NE & NE 50th St"
             },
             {
-                line: "1 Line",
-                stop_name: "Capitol Hill"
-            }
+                line: "67 (SB)",
+                stop_name: "Roosevelt Way NE & NE 50th St"
+            },
+            {
+                line: "48",
+                stop_name: "NE 50th St & University Way NE"
+            },
         ]
     },
     {
-        "name": "Burien (moved from old location!)",
+        "name": "Burien",
         "address": "11860 12th Avenue, South Burien, WA 98168",
         "full_description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there.",
         "coord": {
