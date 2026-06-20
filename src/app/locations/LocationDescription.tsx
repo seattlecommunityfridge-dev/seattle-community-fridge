@@ -23,9 +23,7 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                                 {name}
                             </h2>
   
-                            <p className="mt-4 text-gray-700">
-                                {description}
-                            </p>
+                            <p className="mt-4 text-gray-700" dangerouslySetInnerHTML={{__html: description}} />
 
                             <h3 className="font-JosefinSans font-semibold sm:text-2xl pt-3">
                                 Closest Stops
