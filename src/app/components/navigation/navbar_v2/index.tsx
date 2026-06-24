@@ -65,7 +65,7 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex shrink-0 items-center">
+            <div className="flex shrink-0 items-center justify-center">
               <Link href={"/"}>
                 <Image 
                   className="h-10 w-auto"
@@ -91,7 +91,7 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
-            <div className="sm:relative md:absolute inset-y-2 right-0 ml-6 flex-row-reverse"> { /* Rendered from right to left. */ }
+            <div className="absolute inset-y-2 right-0 ml-6 flex-row-reverse"> { /* Rendered from right to left. */ }
                 <SocialIcon style={{
                     width: '44px',
                     height: '44px'
