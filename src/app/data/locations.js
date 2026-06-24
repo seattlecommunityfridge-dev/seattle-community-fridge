@@ -17,10 +17,10 @@ export const location_data = [
         ]
     },
     {
-        "name": "Dunlap/Rainier Beach",
+        "name": "Dunlap/Rainier Beach (FRIDGE OUT OF ORDER)",
         "address": "48th Ave S & S Thistle St, Seattle WA 98118",
         "desc": "In alley",
-        "full_description": "This one’s just a little tricky, but well worth it. It’s at 48th Ave S and S Thistle. 48th looks a bit like an alley, but it’s a street. Go just a few yards south on 48th and you will see the full-size fridge on your right with a very large pantry. Now contains a public telephone (provided by Futel) and free WiFi.",
+        "full_description": "<b>Fridge currently out of order until replaced. Pantry is still usable.</b><br/><br/>This one’s just a little tricky, but well worth it. It’s at 48th Ave S and S Thistle. 48th looks a bit like an alley, but it’s a street. Go just a few yards south on 48th and you will see the full-size fridge on your right with a very large pantry. Now contains a public telephone (provided by Futel) and free WiFi.",
         "coord": {
             lat: 47.52789683813191,
             lng: -122.27300637540732
@@ -44,7 +44,7 @@ export const location_data = [
     {
         "name": "North Beacon Hill",
         "address": "1307 13th Ave S, Seattle, WA 98144",
-        "full_description": "Sponsored by our good friends at Queer the Land. This is a mini-fridge and very small pantry.",
+        "full_description": "Sponsored by our good friends at <a href=\"https://queertheland.org/\">Queer the Land</a>. This is a mini-fridge and very small pantry.",
         "coord": {
             lat: 47.59123936774281,
             lng: -122.3166102713094
@@ -87,36 +87,7 @@ export const location_data = [
         ]
     },
     {
-        "name": "LGBTQ+ Center",
-        "address": "400 E Pine St, Seattle, WA 98122",
-        "desc": "Located inside the center",
-        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open (Tuesday-Saturday). (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
-        "coord": {
-            lat: 47.61554205613653,
-            lng: -122.32654650438295
-        },
-        "image": "/fridge-images/LGBTQ Plus 2.jpg",
-        "closest_stops": [
-            {
-                line: "3, 10, 11, 12, 49",
-                stop_name: "E Pine St & Bellevue Ave"
-            }, 
-            {
-                line: "3, 11",
-                stop_name: "Bellevue Ave & E Olive Way"
-            }, 
-            {
-                line: "8",
-                stop_name: "E Denny Way & Melrose Ave/Bellevue Ave"
-            },
-            {
-                line: "1 Line",
-                stop_name: "Capitol Hill"
-            }
-        ]
-    },
-    {
-        "name": "Burien (moved from old location!)",
+        "name": "Burien",
         "address": "11860 12th Avenue, South Burien, WA 98168",
         "full_description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there.",
         "coord": {

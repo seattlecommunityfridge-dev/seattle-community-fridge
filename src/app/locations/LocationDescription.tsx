@@ -19,22 +19,20 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                 <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6">
                     <div className="md:w-1/2 p-7">
                         <div className="max-w-lg md:max-w-none">
-                            <h2 className="location">
+                            <h2 className="location font-JosefinSans">
                                 {name}
                             </h2>
   
-                            <p className="mt-4 text-gray-700">
-                                {description}
-                            </p>
+                            <p className="mt-4 text-gray-700" dangerouslySetInnerHTML={{__html: description}} />
 
-                            <h3 className="font-semibold sm:text-2xl pt-3">
+                            <h3 className="font-JosefinSans font-semibold sm:text-2xl pt-3">
                                 Closest Stops
                             </h3>
                             <table className="table-auto w-full">
                                 <thead className="border-b-2">
                                     <tr>
-                                        <th className="text-left w-1/4">Route</th>
-                                        <th className="text-left w-3/4">Stop Name</th>
+                                        <th className="font-JosefinSans text-left w-1/4">Route</th>
+                                        <th className="font-JosefinSans text-left w-3/4">Stop Name</th>
                                     </tr>
                                 </thead>
                                 <tbody>

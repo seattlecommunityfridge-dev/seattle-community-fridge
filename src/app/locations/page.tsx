@@ -1,6 +1,8 @@
 'use client';
 import { APIProvider, Map, AdvancedMarker, MapCameraProps, MapCameraChangedEvent } from "@vis.gl/react-google-maps";
 import { useState, useCallback } from "react";
+import { Button } from '@headlessui/react';
+import Link from 'next/link'
 import { Location, location_data } from '../data/locations';
 import LocationDescription from './LocationDescription';
 
@@ -12,12 +14,12 @@ type DescriptionProps = {
 
 export default function Locations() {
 
-    const logo_img = "https://storage.googleapis.com/seattle-community-fridge/logo/SCF%20logo.jpg";
+    const logo_img = "/scf_36@2x.png";
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
     const [dialogLocation, setDialogLocation] = useState("");
 
-    // Starts centered on the LGBTQ+ center since it's closest to the middle of the city
-    const [markerLocation, setMarkerLocation] = useState(location_data[4]['coord']); 
+    // Starts centered on the Capitol Hill fridge since it's closest to the middle of the city
+    const [markerLocation, setMarkerLocation] = useState(location_data[3]['coord']); 
 
     const INITIAL_CAMERA = {
         center: markerLocation,
@@ -44,26 +46,26 @@ export default function Locations() {
                         </APIProvider>
                     </div>
                     <div className="w-full sm:w-1/2 bg-white rounded-b-lg sm:rounded-r-lg text-black space-y-6 p-4 pb-10 px-2">
-                        <h2 className="location">
+                        <h2 className="location font-JosefinSans">
                             Click "View" next to a fridge location to see details.
                         </h2>
                         {location_data.map((location, i) => (
                             <div key={`${location}_${i}`} className="flex justify-between px-7">
                                 <div className="block">
-                                    <p className="font-bold">{location.name}</p>
+                                    <p className="font-bold font-JosefinSans">{location.name}</p>
                                     <p>{location.address}</p>
                                     <p>{location.desc ? location.desc : ""}</p>
                                 </div>
-                                <button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
-                                    setSelectedLocation(location);
+                                <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {                                    setSelectedLocation(location);
                                     setMarkerLocation(location.coord);
                                     const newCameraProps = cameraProps;
                                     newCameraProps.center = location.coord;
                                     newCameraProps.zoom = 15;
                                     setCameraProps(newCameraProps);
-                                }}>View</button>
+                                }}>View</Button>
                             </div>
                         ))}
+                        <p>Check Seattle's <Link href="https://www.pantrymap.org/map">Pantry Map</Link> for local pantries near you as well!</p>
                     </div>
                 </div>
                 { selectedLocation != null && 
