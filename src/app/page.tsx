@@ -4,6 +4,7 @@ import { Button } from '@headlessui/react';
 import Navigation from './components/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Component as Carousel } from './components/CarouselComponent'
 
 export default function Home() {
 
@@ -27,12 +28,12 @@ export default function Home() {
       <main className="text-center">
         <h1>SEATTLE COMMUNITY FRIDGE</h1>
         <div className="block lg:flex w-10/12 mx-auto">
-          <div className="w-full my-auto lg:w-1/2">
-            <Image width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />
+          <div className="w-full my-auto lg:w-1/2 lg:mr-4">
+	         <Carousel />
           </div>
-          <div className="w-full lg:w-1/2 text-black text-xl sm:text-3xl">
+          <div className="w-full lg:w-1/2 lg:ml-4 text-black text-xl sm:text-3xl">
             <p className="text-gray-700">
-              Seattle Community Fridge is a mutual aid network of eight refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors and food waste in the community.
+              Seattle Community Fridge is a mutual aid network of six refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors and food waste in the community.
             </p>
             <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full">
               <div className="row-span-2">
