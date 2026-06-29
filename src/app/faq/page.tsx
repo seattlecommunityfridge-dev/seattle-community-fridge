@@ -51,8 +51,8 @@ export default function Faq() {
                 <p className="answer">
                     In general, anyone can donate food or go to a fridge now and then to make sure it 
                     and the pantry are organized and clean. Beyond those simple but essential tasks, 
-                    there are many ways you can get involved; please see the 
-                    <Link href="/volunteer">volunteer page here</Link>.
+                    there are many ways you can get involved; please see 
+                    the <Link href="/volunteer">volunteer page here</Link>.
                 </p>
 
                 <h2 className="question">Where are your fridges located?</h2>
@@ -109,17 +109,21 @@ export default function Faq() {
 
                 <h2 className="question">Are there political or ideological ideas behind mutual aid and/or SCF?</h2>
                 <p className="answer">
-                    Not explicitly, but please read the Community Understandings at the end of this document. We do not advocate any particular ideology, but are in broad agreement that need derives from injustice, not moral failing.
+                    Not explicitly, but please read the Community Understandings at the end of this document. 
+                    We do not advocate any particular ideology, but are in broad agreement that need derives from injustice, not moral failing.
                 </p>
 
                 <h2 className="question">How often do you clean the fridges?</h2>
                 <p className="answer">
-                    As often as we can, and a minimum of once a week. The fact is that the fridges are so often accessed that daily spot cleaning and a weekly thorough clean would be ideal, but that’s not always realistic because we are all volunteers with lives.
+                    As often as we can, and a minimum of once a week. The fact is that the fridges are so often accessed that 
+                    daily spot cleaning and a weekly thorough clean would be ideal, but that’s not always realistic because we are all volunteers with lives.
                 </p>
 
                 <h2 className="question">How does the organization work? Who's in charge?</h2>
                 <p className="answer">
-                    We are a non-hierarchical collective, which means we are all in charge. As soon as you join us you have an equal voice. Don’t worry, though–“non-hierarchical collective” is just our fancy way of saying we are a bunch of people who care and do what we can to make our neighbors’ lives better without getting all hung up in structures of domination and control.
+                    We are a non-hierarchical collective, which means we are all in charge. As soon as you join us you have an equal voice. 
+                    Don’t worry, though–“non-hierarchical collective” is just our fancy way of saying we are a bunch of people who care and 
+                    do what we can to make our neighbors’ lives better without getting all hung up in structures of domination and control.
                 </p>
 
                 <h2 className="question">Are you a not-for-profit?</h2>
@@ -128,14 +132,19 @@ export default function Faq() {
                 </p>
                 <h2 className="question">Some mutual aid groups distrust not-for-profit status; why is this and how are you different?</h2>
                 <p className="answer">
-                    Because we have physical infrastructure, we worry that there may be liability associated with our work (a fridge being tipped and falling on someone, for example). Being part of an incorporated entity at least to some extent shields those who work with us from personal liability.
+                    Because we have physical infrastructure, we worry that there may be liability associated with our 
+                    work (a fridge being tipped and falling on someone, for example). 
+                    Being part of an incorporated entity at least to some extent shields those who work with us from personal liability.
                 </p>
                 <p className="answer">
-                    We do understand the distrust our fellow mutual aid groups feel toward many nfp organizations. Please see the discussion above about the difference between mutual aid and charity. Most nfp’s are engaged in charity. We strive to do an ongoing examination of our motives and actions to keep from falling into that trap.
+                    We do understand the distrust our fellow mutual aid groups feel toward many nfp organizations. 
+                    Please see the discussion above about the difference between mutual aid and charity. 
+                    Most nfp’s are engaged in charity. We strive to do an ongoing examination of our motives and actions to keep from falling into that trap.
                 </p>
                 <h1 className="text-3xl sm:text-4xl">Seattle Community Fridge Community Understandings</h1>
                 <p className="answer">
-                    Everyone who works with SCF represents us; our shared values are reflected in the work we do, as well as the interactions we have at the fridges and elsewhere. By accepting a volunteer position with SCF, you are agreeing to work within these values:
+                    Everyone who works with SCF represents us; our shared values are reflected in the work we do, as well as the interactions we have at the fridges and elsewhere. 
+                    By accepting a volunteer position with SCF, you are agreeing to work within these values:
                 </p>
                 <ul>
                     <li>
@@ -145,16 +154,21 @@ export default function Faq() {
                     </li>
                     <li>
                         <p className="answer">
-                            Our work is grounded in an understanding and investigation of the root causes of hunger and the intersection of food insecurity with other forms of injustice, including but not limited to gender, sexual, racial, and disability justice struggles. It is vital that every action you take on behalf of SCF be informed by your own consideration of these issues and inequities.
+                            Our work is grounded in an understanding and investigation of the root causes of hunger and the intersection of food insecurity with other forms of injustice, 
+                            including but not limited to gender, sexual, racial, and disability justice struggles. 
+                            It is vital that every action you take on behalf of SCF be informed by your own consideration of these issues and inequities.
                         </p>
                     </li>
                     <li>
                         <p className="answer">
-                            Notwithstanding everything above, we are here primarily to provide food and reduce food waste. Any impulse to enforce ideological purity as a condition for doing this work should be avoided if it interferes with that primary purpose. We ask that you conform to the values stated above to work with SCF, but beyond that we do not judge anyone's beliefs.
+                            Notwithstanding everything above, we are here primarily to provide food and reduce food waste. 
+                            Any impulse to enforce ideological purity as a condition for doing this work should be avoided 
+                            if it interferes with that primary purpose. 
+                                We ask that you conform to the values stated above to work with SCF, but beyond that we do not judge anyone's beliefs.
                         </p>
                     </li>
                 </ul>
             </div>
         </section>
-    )
+    );
 }
