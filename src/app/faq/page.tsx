@@ -53,6 +53,8 @@ export default function Faq() {
                 <h2 className="question">Isn't there a liability issue?</h2>
                 <p className="answer">
                     We have liability insurance, but generally speaking liability has not been an issue, either here or elsewhere around the world. Please see <Link href="https://drive.google.com/file/d/1O_44v7yoTkj3BIqw6SImhFrfygohMJgv/view">this article from Freedge</Link> about food liability and the fridges.
+
+                    Those who provide food in good faith are also protected by the <Link href="https://app.leg.wa.gov/RCW/default.aspx?cite=69.80.031">Washington State Good Samaritan Food Donation Act.</Link>
                 </p>
 
                 <h2 className="question">Do you accept things other than food?</h2>
