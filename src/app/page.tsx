@@ -44,9 +44,9 @@ export default function Home() {
                   </div>
                 </Button>
               </div>
-              {/*<Button as="a" href="/getfood" className="flex items-center justify-center border-black border bg-teal-500 w-full h-full my-auto rounded-lg text-black">
+              <Button as="a" href="/getfood" className="flex items-center justify-center border-black border bg-teal-500 w-full h-full my-auto rounded-lg text-black">
                 Get Food
-              </Button>*/}
+              </Button>
               <Button as="a" className="flex items-center justify-center col-start-2 border-black border bg-green-500 w-full h-full my-auto rounded-lg text-black" href="/volunteer">
                 Get Involved
               </Button>
