@@ -44,7 +44,7 @@ export const location_data = [
     {
         "name": "North Beacon Hill",
         "address": "1307 13th Ave S, Seattle, WA 98144",
-        "full_description": "Sponsored by our good friends at <a href=\"https://queertheland.org/\">Queer the Land</a>. This is a mini-fridge and very small pantry.",
+        "full_description": "Sponsored by our good friends at <a href=\"https://queertheland.com/\">Queer the Land</a>. This is a mini-fridge and very small pantry.",
         "coord": {
             lat: 47.59123936774281,
             lng: -122.3166102713094
