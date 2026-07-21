@@ -19,7 +19,7 @@ export default function Locations() {
     const [dialogLocation, setDialogLocation] = useState("");
 
     // Starts centered on the Capitol Hill fridge since it's closest to the middle of the city
-    const [markerLocation, setMarkerLocation] = useState(location_data[3]['coord']); 
+    const [markerLocation, setMarkerLocation] = useState(location_data[2]['coord']); 
 
     const INITIAL_CAMERA = {
         center: markerLocation,
