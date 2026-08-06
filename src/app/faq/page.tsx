@@ -149,14 +149,16 @@ export default function Faq() {
                 <ul>
                     <li>
                         <p className="answer">
-                            We go into this work with kindness, consideration, open-heartedness and an assumption of absolute equality.
+                            We go into this work with kindness, consideration, open-heartedness, and an assumption of absolute equality.
                         </p>
                     </li>
                     <li>
                         <p className="answer">
-                            Our work is grounded in an understanding and investigation of the root causes of hunger and the intersection of food insecurity with other forms of injustice, 
+                            Our work is grounded in an understanding and investigation of the root causes of hunger 
+                            and the intersection of food insecurity with other forms of injustice, 
                             including but not limited to gender, sexual, racial, and disability justice struggles. 
-                            It is vital that every action you take on behalf of SCF be informed by your own consideration of these issues and inequities.
+                            It is vital that every action you take on behalf of SCF be informed by your own consideration 
+                            of these issues and inequities.
                         </p>
                     </li>
                     <li>
@@ -164,7 +166,9 @@ export default function Faq() {
                             Notwithstanding everything above, we are here primarily to provide food and reduce food waste. 
                             Any impulse to enforce ideological purity as a condition for doing this work should be avoided 
                             if it interferes with that primary purpose. 
-                                We ask that you conform to the values stated above to work with SCF, but beyond that we do not judge anyone's beliefs.
+
+                            We ask that you conform to the values stated above to work with SCF, 
+                            but beyond that we do not judge anyone's beliefs.
                         </p>
                     </li>
                 </ul>
