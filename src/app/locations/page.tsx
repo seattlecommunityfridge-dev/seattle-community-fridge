@@ -3,10 +3,12 @@ import { APIProvider, Map, AdvancedMarker, MapCameraProps, MapCameraChangedEvent
 import { useState, useCallback } from "react";
 import { Button } from '@headlessui/react';
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 import { Location, location_data } from '../data/locations';
 import LocationDescription from './LocationDescription';
 
 export default function Locations() {
+    const t = useTranslations("locations");
 
     const logo_img = "/scf_36@2x.png";
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
@@ -24,7 +26,7 @@ export default function Locations() {
 
     return (
         <section>
-            <h1>Locations</h1>
+            <h1>{t('title')}</h1>
             <div className="w-full h-full space-t-16 sm:pt-0 pt-0 mt-0 sm:mt-10">
                 <div className="w-10/12 mx-auto sm:flex">
                     <div className="h-[400px] sm:h-[720px] w-full sm:w-1/2 border border-black rounded-lg">
@@ -40,7 +42,7 @@ export default function Locations() {
                     </div>
                     <div className="w-full sm:w-1/2 bg-white rounded-b-lg sm:rounded-r-lg text-black space-y-6 p-4 pb-10 px-2">
                         <h2 className="location font-JosefinSans">
-                            Click "View" next to a fridge location to see details.
+                            {t('instructions')}
                         </h2>
                         {location_data.map((location, i) => (
                             <div key={`${location}_${i}`} className="flex justify-between px-7">
@@ -56,10 +58,14 @@ export default function Locations() {
                                     newCameraProps.center = location.coord;
                                     newCameraProps.zoom = 15;
                                     setCameraProps(newCameraProps);
-                                }}>View</Button>
+                                }}>{t('view-button')}</Button>
                             </div>
                         ))}
-                        <p>Check Seattle's <Link href="https://www.pantrymap.org/map">Pantry Map</Link> for local pantries near you as well!</p>
+                        <p>
+                            {t.rich('check-pantry-map', {
+                                link: (chunks) => <Link href="https://www.pantrymap.org/map">{chunks}</Link>
+                            })}
+                        </p>
                     </div>
                 </div>
                 { selectedLocation != null && 

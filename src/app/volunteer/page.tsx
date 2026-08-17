@@ -19,19 +19,23 @@ export default function Volunteer() {
                     </Button>
 
                     <ul className="space-y-6 mt-7 lg:mt-7">
-                        <li>Food Donation pick-ups</li>
-                        <li>Fridge cleaning</li>
-                        <li>Host/food donor outreach</li>
-                        <li>Volunteer Coordination</li>
-                        <li>Social Media</li>
-                        <li>... & More!</li>
+                        <li>{t('opportunity1')}</li>
+                        <li>{t('opportunity2')}</li>
+                        <li>{t('opportunity3')}</li>
+                        <li>{t('opportunity4')}</li>
+                        <li>{t('opportunity5')}</li>
+                        <li>{t('opportunity6')}</li>
                     </ul>
                     <p className="mt-14 lg:mt-20">
                         {t.rich('questions', {
                             email: (chunks) => <span><a href="mailto:seattlecommunityfridge@gmail.com" target="_blank" rel="noreferrer noopener">{chunks}</a></span>
                         })}
                     </p>
-                    <p>Check our <a href="/faq">FAQ page</a> if you have any questions or want to know more about SCF.</p>
+                    <p>
+                        {t.rich('faq-ref', {
+                            "link-faq": (chunks) => <a href="/faq">{chunks}</a>
+                        })}
+                    </p>
                 </div>
             </div>
         </section>

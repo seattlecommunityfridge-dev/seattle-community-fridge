@@ -9,7 +9,8 @@
         "about-us": "About Us",
         "instagram-icon": "Instagram",
         "donate-icon": "Donate",
-        "email-icon": "Email SCF"
+        "email-icon": "Email SCF",
+        "open-menu": "Open main menu"
     },
     "main": {
         "title": "Seattle Community Fridge",
@@ -25,7 +26,7 @@
         "check-pantry-map": "Check Seattle's <link>Pantry Map</link> for local pantries near you as well!"
     },
     "location-description": {
-        "closest-stops": "Closest Stops", // Should handle both bus and rail stops.
+        "closest-stops": "Closest Stops",
         "route": "Route",
         "stop-name": "Stop Name",
         "image-alt-text": "Image showing the location."
@@ -35,28 +36,28 @@
             "name": "Phinney Ridge",
             "address": "225 N 70th St, Seattle, WA 98103",
             "desc": "Woodland Park Presbyterian",
-            "full-description": "This fridge is on the corner of Greenwood and 70th in the Phinney Ridge neighborhood. Look for the bus stop on Greenwood on the southwest corner; the fridge is right next to it. This is a full-sized fridge and a medium-sized pantry.",
+            "full-description": "This fridge is on the corner of Greenwood and 70th in the Phinney Ridge neighborhood. Look for the bus stop on Greenwood on the southwest corner; the fridge is right next to it. This is a full-sized fridge and a medium-sized pantry."
         },
         "north-beacon-hill": {
             "name": "North Beacon Hill",
             "address": "1307 13th Ave S, Seattle, WA 98144",
-            "full-description": "Sponsored by our good friends at <a href=\"https://queertheland.com/\">Queer the Land</a>. This is a mini-fridge and very small pantry.",
+            "full-description": "Sponsored by our good friends at <a href=\"https://queertheland.com/\">Queer the Land</a>. This is a mini-fridge and very small pantry."
         },
         "capitol-hill": {
             "name": "Capitol Hill",
             "address": "745 19th Ave E, Seattle, WA 98112",
             "desc": "St Joseph Parish",
-            "full-description": "The Capitol Hill fridge is at 19th and Aloha, on the southwest corner, right against the wall of the church and tucked behind the bus stop. If you stand in the doorway of Macrina Bakery and turn around, you are looking right at it across the street. This is a full-size fridge and full-size pantry.",
+            "full-description": "The Capitol Hill fridge is at 19th and Aloha, on the southwest corner, right against the wall of the church and tucked behind the bus stop. If you stand in the doorway of Macrina Bakery and turn around, you are looking right at it across the street. This is a full-size fridge and full-size pantry."
         },
         "burien": {
             "name": "Burien",
             "address": "11860 12th Avenue, South Burien, WA 98168",
-            "full-description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there.",
+            "full-description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there."
         },
         "estelitas-central-district": {
             "name": "Estelita’s Library (Central District)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-            "full-description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational. The street sink is currently under construction.",
+            "full-description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational. The street sink is currently under construction."
         }
     },
     "get-food": {
@@ -87,7 +88,7 @@
         "opportunity5": "Social Media",
         "opportunity6": "... & More!",
         "questions": "Questions about volunteering? Email <email>seattlecommunityfridge@gmail.com</email>!",
-        "faq-ref": "Check our <a>FAQ</a> page if you have any questions or want to know more about SCF."
+        "faq-ref": "Check our <link-faq>FAQ</link-faq> page if you have any questions or want to know more about SCF."
     },
     "faq": {
         "title": "FREQUENTLY ASKED QUESTIONS",

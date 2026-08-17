@@ -50,7 +50,7 @@ export default function GetFood() {
                     reusable grocery bags, or can openers. 
                     Please use the whiteboard we have inside our pantries 
                     to leave us a note and let us know if you would like to see anything else 
-                    and we will do our best to provide those items.               
+                    and we will do our best to provide those items.
                 </p>
                 <h2 className="question">What kind of food will I find?</h2>
                 <p className="answer">
