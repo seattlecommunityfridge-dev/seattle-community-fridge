@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { BusStop } from '../data/locations';
 
 type DescriptionProps = {
@@ -9,6 +10,7 @@ type DescriptionProps = {
 }
 
 export default function LocationDescription(descriptionProps: DescriptionProps) {
+    const t = useTranslations("location-description");
     const name = descriptionProps.name;
     const image = descriptionProps.image;
     const description = descriptionProps.description;
@@ -26,13 +28,13 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                             <p className="mt-4 text-gray-700" dangerouslySetInnerHTML={{__html: description}} />
 
                             <h3 className="font-JosefinSans font-semibold sm:text-2xl pt-3">
-                                Closest Stops
+                                {t('closest-stops')}
                             </h3>
                             <table className="table-auto w-full">
                                 <thead className="border-b-2">
                                     <tr>
-                                        <th className="font-JosefinSans text-left w-1/4">Route</th>
-                                        <th className="font-JosefinSans text-left w-3/4">Stop Name</th>
+                                        <th className="font-JosefinSans text-left w-1/4">{t('route')}</th>
+                                        <th className="font-JosefinSans text-left w-3/4">{t('stop-name')}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -50,7 +52,7 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                         <Image 
                           className="w-full h-auto max-w-lg rounded-lg object-cover"
                           width={500} height={0}
-                          src={image} alt="Image showing the location." />
+                          src={image} alt={t('image-alt-text')} />
                     </div>
                 </div>
             </div>
