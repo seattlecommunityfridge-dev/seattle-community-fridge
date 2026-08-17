@@ -49,7 +49,8 @@ export default function Locations() {
                                     <p>{location.address}</p>
                                     <p>{location.desc ? location.desc : ""}</p>
                                 </div>
-                                <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {                                    setSelectedLocation(location);
+                                <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
+                                    setSelectedLocation(location);
                                     setMarkerLocation(location.coord);
                                     const newCameraProps = cameraProps;
                                     newCameraProps.center = location.coord;

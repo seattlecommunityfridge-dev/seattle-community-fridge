@@ -1,0 +1,10 @@
+{
+    "HomePage": {
+        "title": "Seattle Community Fridge"
+    },
+    "volunteer": {
+        "title": "Oportunidades de voluntariado",
+        "sign-up": "Inscríbase",
+        "questions": "¿Hay preguntas de voluntariado? ¡Envia un email a <email>seattlecommunityfridge@gmail.com</email>!"
+    }
+}

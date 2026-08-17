@@ -72,7 +72,7 @@ export default function About() {
                     <Partner image={"/partners/EstelitasLibrary.png"} name="Estelita's Library" url="https://estelitaslibrary.org/" />
                     <Partner image={"/partners/MagpieThrift.png"} name="Magpie Thrift" url="https://www.magpiethriftseattle.com/" />
                     <Partner image={"/partners/GulletStuffer.png"} name="Gullet Stuffer" url="https://www.gulletstuffer.com/" />
-                    <Partner image={"/partners/ImpactSalish.png"} name=" Impact | Salish Sea Elementary" url="https://www.impactps.org/salishsea/" />
+                    <Partner image={"/partners/ImpactSalish.png"} name="Impact | Salish Sea Elementary" url="https://www.impactps.org/salishsea/" />
                     <Partner image={"/partners/SweetPeaBakery.png"} name="Sweetpea's Cakes" url="https://www.cakesbysweetpea.com/" />
                     <Partner image={"/partners/EpiphanySchool.png"} name="Epiphany School" url="https://www.epiphanyschool.org/" />
                     <Partner image={"/partners/QueenAnneFarmersMarket.gif"} name="Queen Anne Farmers Market" url="https://qafm.org/" />
