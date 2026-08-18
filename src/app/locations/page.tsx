@@ -44,23 +44,25 @@ export default function Locations() {
                         <h2 className="location font-JosefinSans">
                             {t('instructions')}
                         </h2>
-                        {location_data.map((location, i) => (
-                            <div key={`${location}_${i}`} className="flex justify-between px-7">
-                                <div className="block">
-                                    <p className="font-bold font-JosefinSans">{location.name}</p>
-                                    <p>{location.address}</p>
-                                    <p>{location.desc ? location.desc : ""}</p>
+                        {location_data.map((location, i) => {
+                            const t_loc = useTranslations(`location-data.${location.name}`);
+                            return (
+                                <div key={`${location}_${i}`} className="flex justify-between px-7">
+                                    <div className="block">
+                                        <p className="font-bold font-JosefinSans">{t_loc('name')}</p>
+                                        <p>{t_loc('address')}</p>
+                                        <p>{t_loc('desc') ? t_loc('desc') : ""}</p>
+                                    </div>
+                                    <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
+                                        setSelectedLocation(location);
+                                        setMarkerLocation(location.coord);
+                                        const newCameraProps = cameraProps;
+                                        newCameraProps.center = location.coord;
+                                        newCameraProps.zoom = 15;
+                                        setCameraProps(newCameraProps);
+                                    }}>{t('view-button')}</Button>
                                 </div>
-                                <Button key={`button_${location}_${i}`} className="border-black border bg-blue-500 w-20 h-8 my-auto rounded-lg" onClick={() => {
-                                    setSelectedLocation(location);
-                                    setMarkerLocation(location.coord);
-                                    const newCameraProps = cameraProps;
-                                    newCameraProps.center = location.coord;
-                                    newCameraProps.zoom = 15;
-                                    setCameraProps(newCameraProps);
-                                }}>{t('view-button')}</Button>
-                            </div>
-                        ))}
+                            )})}
                         <p>
                             {t.rich('check-pantry-map', {
                                 link: (chunks) => <Link href="https://www.pantrymap.org/map">{chunks}</Link>
