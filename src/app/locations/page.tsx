@@ -45,7 +45,7 @@ export default function Locations() {
                             {t('instructions')}
                         </h2>
                         {location_data.map((location, i) => {
-                            const t_loc = useTranslations(`location-data.${location.name}`);
+                            const t_loc = useTranslations(`location-data.${location.id}`);
                             return (
                                 <div key={`${location}_${i}`} className="flex justify-between px-7">
                                     <div className="block">
@@ -72,6 +72,7 @@ export default function Locations() {
                 </div>
                 { selectedLocation != null && 
                     <LocationDescription 
+                        id={selectedLocation.id}
                         name={selectedLocation.name} 
                         image={selectedLocation.image} 
                         description={selectedLocation.full_description}

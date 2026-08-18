@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { BusStop } from '../data/locations';
 
 type LocationProps = {
+    id: string; // Used to refer to messages/en.json's descriptions
     name: string;
     image: string;
     closest_stops: BusStop[]
@@ -17,12 +18,13 @@ type DescriptionProps = {
 }
 
 export default function LocationDescription(locationProps: LocationProps) {
+    const id = locationProps.id;
     const name = locationProps.name;
     const image = locationProps.image;
     const closest_stops = locationProps.closest_stops;
 
     const t = useTranslations('location-description'); // Constants set for location-description
-    const t_loc = useTranslations(`location-data.${name}`); // Set by the location-data in en.json
+    const t_loc = useTranslations(`location-data.${id}`); // Set by the location-data in en.json
     return (
         <div className="w-full h-full md:pt-0 mt-8">
             <div className="w-10/12 mx-auto sm:flex bg-white rounded-lg overflow-hidden">
