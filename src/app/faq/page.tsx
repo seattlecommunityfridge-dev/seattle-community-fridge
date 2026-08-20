@@ -107,7 +107,12 @@ export default function Faq() {
                         "link-freedge": (chunks) => <Link href="https://freedge.org/">{chunks}</Link>
                     })}
                 </p>
-                <h2 className="question">{t('q17')}</h2>
+                <h2 className="question">
+                    {t.rich('q17', {
+                        "br": (chunks) => <br/>
+                    })}
+
+                </h2>
                 <p className="answer">
                     {t('a17-p1')}
                 </p>
