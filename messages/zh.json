@@ -3,7 +3,7 @@
         "main-page": "SCF",
         "locations": "地点",
         "get-food": "获取食品",
-        "volunteer": "志愿者",
+        "volunteer": "志愿",
         "faq": "常见问题",
         "calendar": "日历",
         "about-us": "关于我们",
@@ -11,6 +11,11 @@
         "donate-icon": "捐赠",
         "email-icon": "Email SCF",
         "open-menu": "打开主菜单"
+    },
+    "language-names": {
+        "english": "英文",
+        "spanish": "西班牙文",
+        "chinese-simplified": "简体中文"
     },
     "main": {
         "title": "西雅图社区冰箱",

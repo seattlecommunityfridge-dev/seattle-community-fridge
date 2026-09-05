@@ -12,6 +12,11 @@
         "email-icon": "Email SCF",
         "open-menu": "Open main menu"
     },
+    "language-names": {
+        "english": "English",
+        "spanish": "Spanish",
+        "chinese-simplified": "Simplified Chinese"
+    },
     "main": {
         "title": "Seattle Community Fridge",
         "overview": "Seattle Community Fridge is a mutual aid network of five refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors and food waste in the community.",
