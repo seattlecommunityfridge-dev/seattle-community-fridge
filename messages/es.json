@@ -1,10 +1,173 @@
 {
-    "HomePage": {
-        "title": "Seattle Community Fridge"
+    "top-menu": {
+        "main-page": "SCF",
+        "locations": "Locations",
+        "get-food": "Get Food",
+        "volunteer": "Volunteer",
+        "faq": "FAQ",
+        "calendar": "Calendar",
+        "about-us": "About Us",
+        "instagram-icon": "Instagram",
+        "donate-icon": "Donate",
+        "email-icon": "Email SCF",
+        "open-menu": "Open main menu"
+    },
+    "language-names": {
+        "english": "Inglés",
+        "spanish": "Español",
+        "chinese-simplified": "Chino simplificado"
+    },
+    "main": {
+        "title": "Seattle Community Fridge",
+        "overview": "Seattle Community Fridge is a mutual aid network of five refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors and food waste in the community.",
+        "fridge-locations-button": "Fridge Locations",
+        "get-food-button": "Get Food",
+        "get-involved-button": "Get Involved"
+    },
+    "locations": {
+        "title": "Locations",
+        "instructions": "Click \"View\" next to a fridge location to see details.",
+        "view-button": "View",
+        "check-pantry-map": "Check Seattle's <link>Pantry Map</link> for local pantries near you as well!"
+    },
+    "location-description": {
+        "closest-stops": "Closest Stops",
+        "route": "Route",
+        "stop-name": "Stop Name",
+        "image-alt-text": "Image showing the location."
+    },
+    "location-data": {
+        "phinney": {
+            "name": "Phinney Ridge",
+            "address": "225 N 70th St, Seattle, WA 98103",
+            "desc": "Woodland Park Presbyterian",
+            "full-description": "This fridge is on the corner of Greenwood and 70th in the Phinney Ridge neighborhood. Look for the bus stop on Greenwood on the southwest corner; the fridge is right next to it. This is a full-sized fridge and a medium-sized pantry."
+        },
+        "north-beacon-hill": {
+            "name": "North Beacon Hill",
+            "address": "1307 13th Ave S, Seattle, WA 98144",
+            "desc": "",
+            "full-description": "Sponsored by our good friends at <link>Queer the Land</link>. This is a mini-fridge and very small pantry.",
+            "link": "https://queertheland.com/"
+        },
+        "capitol-hill": {
+            "name": "Capitol Hill",
+            "address": "745 19th Ave E, Seattle, WA 98112",
+            "desc": "St Joseph Parish",
+            "full-description": "The Capitol Hill fridge is at 19th and Aloha, on the southwest corner, right against the wall of the church and tucked behind the bus stop. If you stand in the doorway of Macrina Bakery and turn around, you are looking right at it across the street. This is a full-size fridge and full-size pantry."
+        },
+        "burien": {
+            "name": "Burien",
+            "address": "11860 12th Avenue, South Burien, WA 98168",
+            "desc": "",
+            "full-description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there."
+        },
+        "estelitas-central": {
+            "name": "Estelita’s Library (Central District)",
+            "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
+            "desc": "",
+            "full-description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational."
+        }
+    },
+    "get-food": {
+        "title": "Getting Food",
+        "instruction": "Please come to our fridge spaces to get food!",
+        "fridge-locations-button": "Fridge Locations",
+        "food-faq": "Food FAQ",
+        "q1": "What time or day can I come by for food?",
+        "a1": "All of our fridges and pantries are open 24/7, all day and everyday. Come by these fridges any time or day to get food. While we cannot guarantee when there will be food available, you can come by any time or day to check.",
+        "q2": "Will there always be food in the fridge?",
+        "a2": "While we would like to be able to say that the fridges and pantries are always full, the fact is that the need is great and our resources are limited. We typically bring food on Tuesdays, Thursdays, and Saturdays--though this sometimes changes--and the food goes quickly.",
+        "q3": "Can I find anything other than food at the fridge sites?",
+        "a3": "While we mostly stock food in the fridges and pantries, we sometimes have emergency items such as first aid kits, sunscreen, masks and wipes, or personal hygiene items such as pads, tampons, combs, soap, toilet paper, etc. Other items may include emergency blankets, trash bags, water bottles, reusable grocery bags, or can openers. Please use the whiteboard we have inside our pantries to leave us a note and let us know if you would like to see anything else and we will do our best to provide those items.",
+        "q4": "What kind of food will I find?",
+        "a4": "Community members and food drop offs include all kinds of food such as fruits, vegetables, packaged sandwiches or frozen food. We cannot guarantee that there is a certain food available, but if you need something or would like to see more of a certain type of food, please use the whiteboard we have inside our pantries to leave us a note and let us know. We will do our best to provide those items.",
+        "q5": "Where does the food come from?",
+        "a5": "Food and pantry items come from community volunteers, neighborhood members, and friends. Additionally, we receive donations from local food banks and schools to bring food to fill the fridges.",
+        "q6": "How much food can I take?",
+        "a6": "We do not control how much food you take from the fridge and pantry. We invite community members to take what you need. With that, please be mindful and leave some for others so that we can all benefit from the shared community fridge."
     },
     "volunteer": {
-        "title": "Oportunidades de voluntariado",
-        "sign-up": "Inscríbase",
-        "questions": "¿Hay preguntas de voluntariado? ¡Envia un email a <email>seattlecommunityfridge@gmail.com</email>!"
+        "title": "Volunteer Opportunities",
+        "sign-up": "Volunteer Sign-Up",
+        "opportunity1": "Food Donation pick-ups",
+        "opportunity2": "Fridge cleaning",
+        "opportunity3": "Host/food donor outreach",
+        "opportunity4": "Volunteer Coordination",
+        "opportunity5": "Social Media",
+        "opportunity6": "... & More!",
+        "questions": "Questions about volunteering? Email <email>seattlecommunityfridge@gmail.com</email>!",
+        "faq-ref": "Check our <link-faq>FAQ</link-faq> page if you have any questions or want to know more about SCF."
+    },
+    "faq": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "q1": "What can I donate?",
+        "a1": "Any wholesome food that you would gladly feed your loved ones.",
+        "q2": "How can I donate food?",
+        "a2": "Simply go to a fridge and donate food and anything you think people might need. Things that need refrigerating should go into the fridge; other things should go into the pantry.",
+        "q3": "Do you accept expired food?",
+        "a3-p1": "Yes. Donate food that you would eat yourself. Avoid refreezing food that has been thawed, and if the packaging has been left open or the food has gone bad, throw it out. Also, please don’t put questionable produce or other marginal perishables in the fridge. Hungry people want to eat exactly what you want to eat and are no more likely to eat food going bad than you are.",
+        "a3-p2": "Most expiration dates on things like canned food are not based on any scientific or legal criteria and are mostly a way to encourage us to throw away perfectly good food and buy more. Please see this <link-usda>USDA article</link-usda> to find out more.",
+        "a3-p3": "<link-guardian>This Guardian article</link-guardian> explains how food expiration dates work and whether foods are unsafe to eat.",
+        "q4": "Can I cook up a big pan of something and put the whole thing in the fridge?",
+        "a4": "No. As soon as one person accesses a large pan of food it’s considered contaminated. It may feel wasteful, but the only way we can accept such food is in individual containers. If you want to do this and need compostable containers, we can sometimes supply them; <email>contact us</email> to find out more.",
+        "q5": "How can I donate money?",
+        "a5": "Any way you like! We can accept cash and checks, of course, but the easiest way is through our <link-wagives>Washington Gives</link-wagives> page, where you can use any method of payment you like. Because we are all volunteers and have essentially no overhead, nearly 100% of your donation will go to helping those in need.",
+        "q6": "How can I help?",
+        "a6": "In general, anyone can donate food or go to a fridge now and then to make sure it and the pantry are organized and clean. Beyond those simple but essential tasks, there are many ways you can get involved; please see the <link-volunteer>volunteer page here.</link-volunteer>",
+        "q7": "Where are your fridges located?",
+        "a7": "Please see the <link-locations>locations page</link-locations>; this includes both the address and the nearest bus routes.",
+        "q8": "Isn't it hazardous for just anyone to donate to the fridges and pantries?",
+        "a8": "The community fridge system has been in place for decades <link-ap>all over the world</link-ap>, and the incidence of food-borne illness or other issues are extremely rare. The benefits of being able to freely give and receive food far outweigh any potential hazards.",
+        "q9": "Isn't there a liability issue?",
+        "a9-p1": "We have liability insurance, but generally speaking liability has not been an issue, either here or elsewhere around the world. Please see <link-freedge>this article from Freedge</link-freedge> about food liability and the fridges. Those who provide food in good faith are also protected by the <link-law>Washington State Good Samaritan Food Donation Act</link-law>.",
+        "a9-p2": "<link-selc>This page from The Sustainable Economies Law Center</link-selc> explains the potential risks and how to protect oneself.",
+        "q10": "Do you accept things other than food?",
+        "a10": "Yes! Anything you think people might need is welcome. We always stock menstrual products (more are always welcome), but soap, shampoo, combs, brushes, that sort of thing are very nice to have in stock.",
+        "q11": "What is mutual aid? How is it different from charity?",
+        "a11": "Mutual aid is neighbors helping neighbors on an equal basis. Charity is inherently paternalistic, in that the giver determines what is needed (and what is not) and who deserves to get what and how much. Charity also has the unintended consequence of perpetuating harm by institutionalizing need. Mutual aid begins from the assumption that needs not being met are the result of societal inequity and systemic injustice.",
+        "q12": "How are community fridges different from food banks?",
+        "a12-p1": "We don't wish to denigrate the work of food banks–they feed a lot of people, far more than we can. Some also give us their excess food to distribute, for which we are grateful. But food banks fall solidly into the charity mindset, with an inherently authoritarian structure to the way food is distributed. They also inadvertently perpetuate hunger by institutionalizing it; one need only look at the beautiful, huge structures they have built to house their services to understand that hunger is, whether they intend it or not, a permanent societal fixture which, from that perspective, can only be addressed through corporatized charity.",
+        "a12-p2": "This <link-forbes>Forbes article</link-forbes> explains the philosophy of community fridges and how they strengthen communities.",
+        "q13": "Are there political or ideological ideas behind mutual aid and/or SCF?",
+        "a13": "Not explicitly, but please read the Community Understandings at the end of this document. We do not advocate any particular ideology, but are in broad agreement that need derives from injustice, not moral failing.",
+        "q14": "How often do you clean the fridges?",
+        "a14": "As often as we can, and a minimum of once a week. The fact is that the fridges are so often accessed that daily spot cleaning and a weekly thorough clean would be ideal, but that’s not always realistic because we are all volunteers with lives.",
+        "q15": "How does the organization work? Who's in charge?",
+        "a15": "We are a non-hierarchical collective, which means we are all in charge. As soon as you join us you have an equal voice. Don’t worry, though–“non-hierarchical collective” is just our fancy way of saying we are a bunch of people who care and do what we can to make our neighbors’ lives better without getting all hung up in structures of domination and control.",
+        "q16": "Are you a not-for-profit?",
+        "a16": "Yes, we are a sponsored nfp through <link-freedge>freedge.org</link-freedge> (aka Left Lovers)",
+        "q17": "Some mutual aid groups distrust not-for-profit status;<br></br>why is this and how are you different?",
+        "a17-p1": "Because we have physical infrastructure, we worry that there may be liability associated with our work (a fridge being tipped and falling on someone, for example). Being part of an incorporated entity at least to some extent shields those who work with us from personal liability.",
+        "a17-p2": "We do understand the distrust our fellow mutual aid groups feel toward many nfp organizations. Please see the discussion above about the difference between mutual aid and charity. Most nfp’s are engaged in charity. We strive to do an ongoing examination of our motives and actions to keep from falling into that trap.",
+        "community-understanding": "Seattle Community Fridge Community Understandings",
+        "cu1": "Everyone who works with SCF represents us; our shared values are reflected in the work we do, as well as the interactions we have at the fridges and elsewhere. By accepting a volunteer position with SCF, you are agreeing to work within these values:",
+        "cu2": "We go into this work with kindness, consideration, open-heartedness, and an assumption of absolute equality.",
+        "cu3": "Our work is grounded in an understanding and investigation of the root causes of hunger and the intersection of food insecurity with other forms of injustice, including but not limited to gender, sexual, racial, and disability justice struggles. It is vital that every action you take on behalf of SCF be informed by your own consideration of these issues and inequities.",
+        "cu4": "Notwithstanding everything above, we are here primarily to provide food and reduce food waste. Any impulse to enforce ideological purity as a condition for doing this work should be avoided if it interferes with that primary purpose. We ask that you conform to the values stated above to work with SCF, but beyond that we do not judge anyone's beliefs."
+    },
+    "calendar": {
+        "title": "Calendar",
+        "event-prompt": "Upcoming Events",
+        "invite": "Are you hosting a mutual aid or community event in Seattle and would like to add it to our calendar? You can invite us!",
+        "step-1": "On your computer, open Google Calendar.",
+        "step-2": "In the top left, click Create.",
+        "step-3": "Enter the event information.",
+        "step-4": "Under \"Add guests,\" add the calendar ID you can find below.",
+        "step-5": "Click Save.",
+        "calendar-id-header": "Calendar ID:",
+        "fill-form": "Not able to make that work? Fill out a form here: <link>Suggest an event to the Seattle Community Fridge Calendar</link>"
+    },
+    "about-us": {
+        "title": "About SEATTLE COMMUNITY FRIDGE",
+        "about-1": "Seattle Community Fridge is a mutual aid group founded in 2020, in response to the urgent food insecurity needs engendered by the COVID pandemic. It soon became apparent, however, that there were many hungry people in need of the services we provided. We have built and maintained sheltered fridges and pantries throughout the greater Seattle area since then.",
+        "about-2": "We are run entirely by uncompensated community volunteers. We work toward food justice for all people by providing places to donate food, currently at five locations. Each site consists of a refrigerator and pantry; these are located outdoors and available at all times. We also strive to curb food waste by gleaning and distributing food from stores, restaurants, and other businesses that would otherwise have thrown it away. We use some monetary donations to purchase shelf-stable foods and encourage community members to help stock the refrigerators and pantries. As possible, we provide other necessities such as toiletries, hand warmers, warm clothing, water, water bottles, and menstrual products.",
+        "about-3": "SCF is made up of community members and operates non-hierarchically with group consensus for ideas and decision-making. We have no overhead beyond storage, and no staff; all of us are community members just like you and the people we serve. All our efforts and the donations we receive are dedicated to ensuring that our neighbors are fed.",
+        "about-4": "Seattle Community Fridge does not discriminate against any person on the basis of race, color, religious affiliation, sex, age, national origin, marital status, sexual orientation, disability, or gender identity or expression. We do not collect or share the information of those who access the refrigerators or donate to the organization, except as needed for essential volunteer activities. All food and other necessities are freely available to all, without restriction, judgment, or access control.",
+        "mutual-aid-header": "What is Mutual Aid?",
+        "mutual-aid": "Mutual aid is solidarity, not charity. <bold>Everyone looks out for one another</bold>, gives what they can, and takes what they need. Mutual aid is a <bold>community-led solution</bold> for meeting those needs and filling the gaps. Mutual Aid acknowledges the fact that well-intentioned charity work can often lead to paternalism and exacerbation of the inequities underlying poverty and hunger. It actively seeks to avoid this trap.",
+        "friends-header": "Friends, Allies, and Supporters",
+        "privacy-statement-header": "Privacy Statement",
+        "privacy-statement": "Any information supplied to Seattle Community Fridge, including but not limited to your name, address, any other identifying information, or financial transactions between you and us, will be held in strict privacy and will not be shared with any other entity, except as required by law."
     }
 }
