@@ -69,12 +69,12 @@
 
 @layer base {
   @font-face {
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', 'Noto Sans SC';
     src: url(./fonts/JosefinSans-Bold.ttf)
   }
 
   @font-face {
-    font-family: 'Spectral';
+    font-family: 'Spectral', 'Noto Serif SC';
     src: url(./fonts/Spectral-Regular.ttf)
   }
 }

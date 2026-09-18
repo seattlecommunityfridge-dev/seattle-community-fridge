@@ -168,9 +168,23 @@ export default function Navbar() {
               {item.name}
             </DisclosureButton>
           ))}
-          {languages.map((item) => (
-            <ChangeLanguageButton language_name={item.language_name} native_name={item.native_name} locale={item.locale} />
-          ))}
+          <Menu>
+            <MenuButton className="inline-flex items-center gap-2 rounded-md bg-gray-800 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-700 data-open:bg-gray-700">
+              <LanguageIcon className="size-4 fill-white/80" />
+              {t('language-menu')}
+              <ChevronDownIcon className="size-4 fill-white/60" />
+            </MenuButton>
+            <MenuItems anchor="bottom end"
+              className="w-60 origin-top-right rounded-xl border border-white/5 bg-gray-800 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:--spacing(1)] focus:outline-none data-closed:scale-95 data-closed:opacity-0">
+              {languages.map((item) => (
+                <MenuItem key={item.locale}>
+                  <button className="group flex w-full h-[3vh] items-center gap-2 rounded-lg px-3 px-1.5 data-focus:bg-gray-600/95">
+                    <LanguageLink language={item.language_name} native_name={item.native_name} locale={item.locale}/>
+                  </button>
+                </MenuItem>
+              ))}
+            </MenuItems>
+          </Menu>
         </div>
       </DisclosurePanel>
     </Disclosure>

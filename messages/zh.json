@@ -13,6 +13,9 @@
         "language-menu": "语言",
         "open-menu": "打开主菜单"
     },
+    "footer": {
+        "languages-info": "SCF网站有这种语言:"
+    },
     "language-names": {
         "english": "英文",
         "spanish": "西班牙文",

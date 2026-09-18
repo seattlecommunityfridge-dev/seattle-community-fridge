@@ -13,6 +13,9 @@
         "language-menu": "Languages",
         "open-menu": "Open main menu"
     },
+    "footer": {
+        "languages-info": "SCF is available in these languages:"
+    },
     "language-names": {
         "english": "English",
         "spanish": "Spanish",
