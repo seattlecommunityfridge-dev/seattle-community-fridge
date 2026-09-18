@@ -1,5 +1,6 @@
 export const location_data = [
     {
+        "id": "phinney",
         "name": "Phinney Ridge",
         "address": "225 N 70th St, Seattle, WA 98103",
         "desc": "Woodland Park Presbyterian",
@@ -17,6 +18,7 @@ export const location_data = [
         ]
     },
     {
+        "id": "north-beacon-hill",
         "name": "North Beacon Hill",
         "address": "1307 13th Ave S, Seattle, WA 98144",
         "full_description": "Sponsored by our good friends at <a href=\"https://queertheland.com/\">Queer the Land</a>. This is a mini-fridge and very small pantry.",
@@ -37,6 +39,7 @@ export const location_data = [
         ]
     },
     {
+        "id": "capitol-hill",
         "name": "Capitol Hill",
         "address": "745 19th Ave E, Seattle, WA 98112",
         "desc": "St Joseph Parish",
@@ -62,6 +65,7 @@ export const location_data = [
         ]
     },
     {
+        "id": "burien",
         "name": "Burien",
         "address": "11860 12th Avenue, South Burien, WA 98168",
         "full_description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there.",
@@ -82,6 +86,7 @@ export const location_data = [
         ]
     },
     {
+        "id": "estelitas-central",
         "name": "Estelita’s Library (Central District)",
         "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
         "full_description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational. The street sink is currently under construction.",

@@ -1,5 +1,14 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { BusStop } from '../data/locations';
+
+type LocationProps = {
+    id: string; // Used to refer to messages/en.json's descriptions
+    name: string;
+    image: string;
+    closest_stops: BusStop[]
+}
 
 type DescriptionProps = {
     name: string;
@@ -8,11 +17,14 @@ type DescriptionProps = {
     closest_stops: BusStop[];
 }
 
-export default function LocationDescription(descriptionProps: DescriptionProps) {
-    const name = descriptionProps.name;
-    const image = descriptionProps.image;
-    const description = descriptionProps.description;
-    const closest_stops = descriptionProps.closest_stops;
+export default function LocationDescription(locationProps: LocationProps) {
+    const id = locationProps.id;
+    const name = locationProps.name;
+    const image = locationProps.image;
+    const closest_stops = locationProps.closest_stops;
+
+    const t = useTranslations('location-description'); // Constants set for location-description
+    const t_loc = useTranslations(`location-data.${id}`); // Set by the location-data in en.json
     return (
         <div className="w-full h-full md:pt-0 mt-8">
             <div className="w-10/12 mx-auto sm:flex bg-white rounded-lg overflow-hidden">
@@ -20,19 +32,23 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                     <div className="md:w-1/2 p-7">
                         <div className="max-w-lg md:max-w-none">
                             <h2 className="location font-JosefinSans">
-                                {name}
+                                {t_loc('name')}
                             </h2>
   
-                            <p className="mt-4 text-gray-700" dangerouslySetInnerHTML={{__html: description}} />
+                            <p className="mt-4 text-gray-700">
+                                {t_loc.rich('full-description', {
+                                    "link": (chunks) => <Link href={t_loc('link')}>{chunks}</Link>
+                                })}
+                            </p>
 
                             <h3 className="font-JosefinSans font-semibold sm:text-2xl pt-3">
-                                Closest Stops
+                                {t('closest-stops')}
                             </h3>
                             <table className="table-auto w-full">
                                 <thead className="border-b-2">
                                     <tr>
-                                        <th className="font-JosefinSans text-left w-1/4">Route</th>
-                                        <th className="font-JosefinSans text-left w-3/4">Stop Name</th>
+                                        <th className="font-JosefinSans text-left w-1/4">{t('route')}</th>
+                                        <th className="font-JosefinSans text-left w-3/4">{t('stop-name')}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -50,7 +66,7 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                         <Image 
                           className="w-full h-auto max-w-lg rounded-lg object-cover"
                           width={500} height={0}
-                          src={image} alt="Image showing the location." />
+                          src={image} alt={t('image-alt-text')} />
                     </div>
                 </div>
             </div>

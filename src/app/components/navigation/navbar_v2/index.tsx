@@ -1,11 +1,14 @@
 'use client'
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon, LanguageIcon } from '@heroicons/react/24/solid';
 import { SocialIcon } from 'react-social-icons';
 import { hands } from '../../../data/icons';
 import { usePathname as getPathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { LanguageLink } from "../../LanguageLink";
 
 type NavigationProps = {
   name: string;
@@ -13,15 +16,29 @@ type NavigationProps = {
   current: boolean;
 }
 
-const navigation: NavigationProps[] = [
-  { name: 'SCF', href: '/', current: false },
-  { name: 'Locations', href: '/locations', current: false },
-  { name: 'Get Food', href: '/getfood', current: false },
-  { name: 'Volunteer', href: '/volunteer', current: false },
-  { name: 'FAQ', href: '/faq', current: false },
-  { name: 'Calendar', href: '/calendar', current: false },
-  { name: 'About Us', href: '/about', current: false },
-]
+type LanguageProps = {
+  language_name: string;
+  native_name: string;
+  locale: string;
+}
+
+function ChangeLanguageButton(props: LanguageProps) {
+  return (
+    <DisclosureButton
+      key={props.language_name}
+      as="button"
+      onClick={""}
+      aria-current={props.language_name ? 'page' : undefined}
+      className={classNames(
+        props.language_name ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white',
+        'block rounded-md px-3 py-2 text-base font-medium',
+      )}
+    >
+      <LanguageLink language={props.language_name} native_name={props.native_name} locale={props.locale}/>
+      
+    </DisclosureButton>
+  );
+}
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -33,7 +50,25 @@ function getPageSection() {
 
 export default function Navbar() {
   // Determine which page is active.
+  const t = useTranslations("top-menu");
   const href = getPageSection();
+
+  const navigation: NavigationProps[] = [
+    { name: t('main-page'), href: '/', current: false },
+    { name: t('locations'), href: '/locations', current: false },
+    { name: t('get-food'), href: '/getfood', current: false },
+    { name: t('volunteer'), href: '/volunteer', current: false },
+    { name: t('faq'), href: '/faq', current: false },
+    { name: t('calendar'), href: '/calendar', current: false },
+    { name: t('about-us'), href: '/about', current: false },
+  ]
+
+  const languages: LanguageProps[] = [
+    { language_name: 'english', native_name: "English", locale: "en" },
+    { language_name: 'spanish', native_name: "Español", locale: "es" },
+    { language_name: 'chinese-simplified', native_name: "简体中文", locale: "zh" }
+  ]
+
   const nav = navigation;
   nav.forEach((n) => {
     n.current = (n.href === href);
@@ -51,7 +86,7 @@ export default function Navbar() {
             {/* Mobile menu button*/}
             <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500">
               <span className="absolute -inset-0.5" />
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">t('open-menu')</span>
               <Bars3Icon aria-hidden="true" className="block size-6 group-data-open:hidden" />
               <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
             </DisclosureButton>
@@ -68,6 +103,23 @@ export default function Navbar() {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
+                <Menu>
+                  <MenuButton className="inline-flex items-center gap-2 rounded-md bg-gray-800 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-700 data-open:bg-gray-700">
+                    <LanguageIcon className="size-4 fill-white/80" />
+                    {t('language-menu')}
+                    <ChevronDownIcon className="size-4 fill-white/60" />
+                  </MenuButton>
+                  <MenuItems anchor="bottom end"
+                    className="w-60 origin-top-right rounded-xl border border-white/5 bg-gray-800 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:--spacing(1)] focus:outline-none data-closed:scale-95 data-closed:opacity-0">
+                    {languages.map((item) => (
+                      <MenuItem key={item.locale}>
+                        <button className="group flex w-full items-center gap-2 rounded-lg px-3 px-1.5 data-focus:bg-gray-600/95">
+                          <LanguageLink language={item.language_name} native_name={item.native_name} locale={item.locale}/>
+                        </button>
+                      </MenuItem>
+                    ))}
+                  </MenuItems>
+                </Menu>
                 {nav.map((item) => (
                   <a
                     key={item.name}
@@ -87,15 +139,15 @@ export default function Navbar() {
                 <SocialIcon style={{
                     width: '44px',
                     height: '44px'
-                }} target="_blank" network="instagram" url="https://www.instagram.com/seattlecommunityfridge"/>
+                }} title={t('instagram-icon')} target="_blank" network="instagram" url="https://www.instagram.com/seattlecommunityfridge"/>
                 <SocialIcon style={{
                     width: '44px',
                     height: '44px'
-                }} target='_blank' fallback={ hands } fgColor="#00843D" bgColor="white" label="Donate" url="https://www.wagives.org/organization/Seattle-Community-Fridge"/>
+                }} target='_blank' fallback={ hands } fgColor="#00843D" bgColor="white" title={t('donate-icon')} label="Donate" url="https://www.wagives.org/organization/Seattle-Community-Fridge"/>
                 <SocialIcon style={{
                     width: '44px',
                     height: '44px'
-                }} target='_blank' network="email" url="mailto:seattlecommunityfridge@gmail.com"/>
+                }} target='_blank' network="email" title={t('email-icon')} url="mailto:seattlecommunityfridge@gmail.com"/>
             </div>
           </div>
         </div>
@@ -116,6 +168,23 @@ export default function Navbar() {
               {item.name}
             </DisclosureButton>
           ))}
+          <Menu>
+            <MenuButton className="inline-flex items-center gap-2 rounded-md bg-gray-800 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-700 data-open:bg-gray-700">
+              <LanguageIcon className="size-4 fill-white/80" />
+              {t('language-menu')}
+              <ChevronDownIcon className="size-4 fill-white/60" />
+            </MenuButton>
+            <MenuItems anchor="bottom end"
+              className="w-60 origin-top-right rounded-xl border border-white/5 bg-gray-800 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:--spacing(1)] focus:outline-none data-closed:scale-95 data-closed:opacity-0">
+              {languages.map((item) => (
+                <MenuItem key={item.locale}>
+                  <button className="group flex w-full h-[3vh] items-center gap-2 rounded-lg px-3 px-1.5 data-focus:bg-gray-600/95">
+                    <LanguageLink language={item.language_name} native_name={item.native_name} locale={item.locale}/>
+                  </button>
+                </MenuItem>
+              ))}
+            </MenuItems>
+          </Menu>
         </div>
       </DisclosurePanel>
     </Disclosure>
