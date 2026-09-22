@@ -38,7 +38,7 @@
         "title": "Ubicaciones",
         "instructions": "Haz clic en \"Ver\" junto a la ubicación de un refrigerador para ver detalles.",
         "view-button": "Ver",
-        "check-pantry-map": "¡Consulta también <link>el mapa de la despensa de Seattle</link> para encontrar despensas locales cerca de ti!"
+        "check-pantry-map": "¡Consulta también el <link>Mapa de Despensas</link> de Seattle para encontrar despensas locales cerca de ti!"
     },
     "location-description": {
         "closest-stops": "Paradas más cercanas",
@@ -57,7 +57,7 @@
             "name": "North Beacon Hill",
             "address": "1307 13th Ave S, Seattle, WA 98144",
             "desc": "",
-            "full-description": "Patrocinado por nuestros buenos amigos de ‘<link>Queer the Land.</link>’ Este es un minirrefrigerador y una despensa pequeña.",
+            "full-description": "Patrocinado por nuestros buenos amigos de <link>Queer the Land</link>. Este es un minirrefrigerador y una despensa pequeña.",
             "link": "https://queertheland.com/"
         },
         "capitol-hill": {
@@ -106,8 +106,8 @@
         "opportunity4": "Coordinación de voluntariado",
         "opportunity5": "Redes sociales",
         "opportunity6": "... ¡Y más!",
-        "questions": "¿Preguntas sobre el voluntariado? ¡Envíalas a <email>seattlecommunityfridge@gmail.com</email> por correo electrónico!",
-        "faq-ref": "Consulta nuestra <link-faq>página de preguntas frecuentes</link-faq> si tienes alguna preguntas o quieres saber más sobre SCF."
+        "questions": "¿Preguntas sobre el voluntariado? ¡Escríbenos a <email>seattlecommunityfridge@gmail.com</email>!",
+        "faq-ref": "Consulta nuestra página de <link-faq>preguntas frecuentes</link-faq> si tienes alguna pregunta o quieres saber más sobre SCF."
     },
     "faq": {
         "title": "PREGUNTAS FRECUENTES",
@@ -118,26 +118,26 @@
         "q3": "¿Aceptan alimentos caducados?",
         "a3-p1": "Sí. Donen alimentos que ustedes comerían. Eviten volver a congelar alimentos que hayan sido descongelados y, si el empaque se ha dejado abierto o la comida se echó a perder, deséchenlos. Además, por favor no pongan productos dudosos ni otros productos perecederos marginales en el refrigerador. Las personas hambrientas quieren comer exactamente lo que ustedes quieren comer y no tienen más probabilidades de comer alimentos que se echen a perder que ustedes.",
         "a3-p2": "La mayoría de las fechas de caducidad en alimentos como los enlatados no se basan en ningún criterio científico o legal y son principalmente una forma de animarnos a tirar alimentos perfectamente buenos y comprar más. Por favor, consulte este <link-usda>artículo del USDA</link-usda> para saber más.",
-        "a3-p3": "<link-guardian>Este artículo de The Guardian</link-guardian> explica cómo funcionan las fechas de caducidad de los alimentos y si los alimentos no son seguros de comer.",
+        "a3-p3": "Este <link-guardian>artículo de The Guardian</link-guardian> explica cómo funcionan las fechas de caducidad de los alimentos y si los alimentos no son seguros de comer.",
         "q4": "¿Puedo cocinar una sartén grande de algo y poner todo en el refrigerador?",
         "a4": "No. En cuanto una persona accede a una charola grande de comida, se considera contaminada. Puede parecer un desperdicio, pero la única forma de aceptar ese tipo de comida es en recipientes individuales. Si quieres hacer esto y necesitas contenedores compostables, a veces podemos proporcionarlos; <email>contáctanos</email> para saber más.",
         "q5": "¿Cómo puedo donar dinero?",
-        "a5": "¡Como quieras! Podemos aceptar efectivo y cheques, por supuesto, pero la forma más fácil es a través de nuestra página de ‘<link-wagives>Washington Gives</link-wagives>’, donde puedes usar cualquier método de pago que prefieras. Como todos somos voluntarios y prácticamente no tenemos gastos generales, casi el 100% de tu donación se destinará a ayudar a quienes lo necesiten.",
+        "a5": "¡Como quieras! Podemos aceptar efectivo y cheques, por supuesto, pero la forma más fácil es a través de nuestra página de <link-wagives>Washington Gives</link-wagives>, donde puedes usar cualquier método de pago que prefieras. Como todos somos voluntarios y prácticamente no tenemos gastos generales, casi el 100% de tu donación se destinará a ayudar a quienes lo necesiten.",
         "q6": "¿Cómo puedo ayudar?",
         "a6": "En general, cualquiera puede donar comida o ir al refrigerador de vez en cuando para asegurarse de que tanto la despensa como el refrigerador estén organizados y limpios. Más allá de esas tareas simples pero esenciales, hay muchas formas de participar; por favor, consulta la <link-volunteer>página de voluntarios aquí.</link-volunteer>",
         "q7": "¿Dónde están ubicados tus refrigeradores?",
         "a7": "Por favor, consulta la <link-locations>página de ubicaciones</link-locations>; esto incluye tanto la dirección como las rutas de autobús más cercanas.",
         "q8": "¿No es peligroso que cualquiera done a los refrigeradores y las despensas?",
-        "a8": "El sistema de refrigeradores comunitarios ha existido durante décadas en todo el mundo, y la incidencia de enfermedades transmitidas por alimentos u otros problemas es extremadamente rara. Los beneficios de poder dar y recibir alimentos libremente superan con creces cualquier riesgo potencial.",
+        "a8": "El sistema de refrigeradores comunitarios ha existido durante décadas <link-ap>en todo el mundo</link-ap>, y la incidencia de enfermedades transmitidas por alimentos u otros problemas es extremadamente rara. Los beneficios de poder dar y recibir alimentos libremente superan con creces cualquier riesgo potencial.",
         "q9": "¿No hay un problema de responsabilidad civil?",
-        "a9-p1": "Tenemos seguro de responsabilidad civil, pero, en términos generales, la responsabilidad civil no ha sido un problema ni aquí ni en otros lugares del mundo. Por favor, consulta <link-freedge>este artículo de ‘Freedge’</link-freedge> sobre la responsabilidad alimentaria y los refrigeradores. Quienes proveen alimentos de buena fe también están protegidos por <link-law>la Ley de Donación de Alimentos del Estado de Buen Samaritano</link-law>.",
+        "a9-p1": "Tenemos seguro de responsabilidad civil, pero, en términos generales, la responsabilidad civil no ha sido un problema ni aquí ni en otros lugares del mundo. Por favor, consulta <link-freedge>este artículo de Freedge</link-freedge> sobre la responsabilidad alimentaria y los refrigeradores. Quienes proveen alimentos de buena fe también están protegidos por la <link-law>Ley de Donación de Alimentos del Buen Samaritano del Estado de Washington</link-law>.",
         "a9-p2": "<link-selc>Esta página del Centro de Derecho de Economías Sostenibles</link-selc> explica los riesgos potenciales y cómo protegerse.",
         "q10": "¿Aceptan cosas que no sean comida?",
         "a10": "¡Sí! Cualquier cosa que crean que la gente pueda necesitar es bienvenida. Siempre tenemos productos menstruales (aunque, más, siempre son bienvenidos), pero jabón, champú, peines, cepillos, ese tipo de cosas son muy útiles para tener en existencia.",
         "q11": "¿Qué es la ayuda mutua? ¿En qué se diferencia de la caridad?",
         "a11": "La ayuda mutua consiste en que los vecinos se ayudan entre sí en igualdad de condiciones. La caridad es inherentemente paternalista, ya que quien da determina qué se necesita (y qué no) y quién merece recibir qué y cuánto. La caridad también tiene la consecuencia no intencional de perpetuar el daño al institucionalizar la necesidad. La ayuda mutua parte de la suposición de que las necesidades no cubiertas son el resultado de la inequidad social y de la injusticia sistémica.",
         "q12": "¿En qué se diferencian los refrigeradores comunitarios de los bancos de alimentos?",
-        "a12-p1": "No queremos menospreciar el trabajo de los bancos de alimentos: alimentan a mucha gente, mucho más de lo que nosotros podemos. Algunos también nos dan su excedente de comida para distribuir, por lo cual estamos agradecidos. Pero los bancos de alimentos caen firmemente en la mentalidad de la caridad, con una estructura inherentemente autoritaria en la forma en que se distribuye la comida. Además, perpetúan inadvertidamente el hambre al institucionalizarla; basta con ver las hermosas y enormes estructuras que han construido para albergar sus servicios para entender que el hambre es, lo quieran o no, un elemento social permanente que, desde esa perspectiva, solo puede abordarse mediante la caridad corporeizada.",
+        "a12-p1": "No queremos menospreciar el trabajo de los bancos de alimentos: alimentan a mucha gente, mucho más de lo que nosotros podemos. Algunos también nos dan su excedente de comida para distribuir, por lo cual estamos agradecidos. Pero los bancos de alimentos caen firmemente en la mentalidad de la caridad, con una estructura inherentemente autoritaria en la forma en que se distribuye la comida. Además, perpetúan inadvertidamente el hambre al institucionalizarla; basta con ver las hermosas y enormes estructuras que han construido para albergar sus servicios para entender que el hambre es, lo quieran o no, un elemento social permanente que, desde esa perspectiva, solo puede abordarse mediante la caridad corporatizada.",
         "a12-p2": "Este <link-forbes>artículo de Forbes</link-forbes> explica la filosofía de los refrigeradores comunitarios y cómo fortalecen a las comunidades.",
         "q13": "¿Existen ideas políticas o ideológicas detrás de la ayuda mutua y/o del SCF?",
         "a13": "No explícitamente, pero por favor lee los Entendimientos de la Comunidad al final de este documento. No defendemos ninguna ideología en particular, pero estamos de acuerdo en que la necesidad deriva de la injusticia, no de la falla moral.",
@@ -149,11 +149,11 @@
         "a16": "Sí, somos una organización sin fines de lucro patrocinada a través de <link-freedge>freedge.org</link-freedge> (también conocida como Left Lovers)",
         "q17": "Algunos grupos de ayuda mutua desconfían del estatus de sin fines de lucro; ¿por qué es así y en qué se diferencian?",
         "a17-p1": "Debido a que contamos con infraestructura física, nos preocupa que pueda haber responsabilidad asociada a nuestro trabajo (por ejemplo, que un refrigerador se vuelque y caiga sobre alguien). Ser parte de una entidad incorporada, al menos en cierta medida, protege a quienes trabajan con nosotros de la responsabilidad personal.",
-        "a17-p2": "Entendemos la desconfianza que sienten nuestros compañeros de grupos de ayuda mutua hacia muchas organizaciones sin lucro. Por favor, consulta la discusión anterior sobre la diferencia entre la ayuda mutua y la caridad. La mayoría de las organizaciones sin fines de lucro se involucran en actividades de caridad. Nos esforzamos por realizar un examen continuo de nuestros motivos y acciones para evitar caer en esa trampa.",
-        "community-understanding": "Entendimientos de la comunidad de refrigeradores comunitarios de Seattle",
-        "cu1": "Todos los que trabajamos con SCF nos representan; nuestros valores compartidos se reflejan tanto en el trabajo que realizamos como en las interacciones que tenemos en los refrigeradores y en otros espacios. Al aceptar un puesto voluntario en SCF, aceptas trabajar dentro de estos valores:",
+        "a17-p2": "Entendemos la desconfianza que sienten nuestros compañeros de grupos de ayuda mutua hacia muchas organizaciones sin fines de lucro. Por favor, consulta la discusión anterior sobre la diferencia entre la ayuda mutua y la caridad. La mayoría de las organizaciones sin fines de lucro se involucran en actividades de caridad. Nos esforzamos por realizar un examen continuo de nuestros motivos y acciones para evitar caer en esa trampa.",
+        "community-understanding": "Entendimientos de la Comunidad del Refrigerador Comunitario de Seattle",
+        "cu1": "Todos los que trabajan con SCF nos representan; nuestros valores compartidos se reflejan tanto en el trabajo que realizamos como en las interacciones que tenemos en los refrigeradores y en otros espacios. Al aceptar un puesto voluntario en SCF, aceptas trabajar dentro de estos valores:",
         "cu2": "Entramos en este trabajo con amabilidad, consideración, apertura de corazón y la suposición de igualdad absoluta.",
-        "cu3": "Nuestro trabajo se basa en la comprensión e investigación de las causas profundas del hambre y en la intersección de la inseguridad alimentaria con otras formas de injusticia, incluyendo, pero no limitándose a, las luchas por la justicia de género, sexualidad y racial, y por la discapacidad. Es vital que cada acción que tomes en nombre de SCF esté informada por tu propia consideración de estos temas e inequidades.",
+        "cu3": "Nuestro trabajo se basa en la comprensión e investigación de las causas profundas del hambre y en la intersección de la inseguridad alimentaria con otras formas de injusticia, incluyendo, pero no limitándose a, las luchas por la justicia de género, sexual, racial y por la discapacidad. Es vital que cada acción que tomes en nombre de SCF esté informada por tu propia consideración de estos temas e inequidades.",
         "cu4": "A pesar de todo lo anterior, estamos aquí principalmente para proveer alimentos y reducir el desperdicio de alimentos. Cualquier impulso de imponer la pureza ideológica como condición para realizar este trabajo debe evitarse si interfiere con el propósito principal. Les pedimos que se ajusten a los valores mencionados anteriormente para trabajar con SCF, pero más allá de eso no juzgamos las creencias de nadie."
     },
     "calendar": {
@@ -161,7 +161,7 @@
         "event-prompt": "Próximos Eventos",
         "invite": "¿Estás organizando un evento de ayuda mutua o comunitario en Seattle y te gustaría agregarlo a nuestro calendario? ¡Puedes invitarnos!",
         "step-1": "En tu computadora, abre Google Calendar.",
-        "step-2": "In la esquina superior izquierda, haz clic en Crear.",
+        "step-2": "En la esquina superior izquierda, haz clic en Crear.",
         "step-3": "Ingresa la información del evento.",
         "step-4": "En \"Agregar invitados\", agrega el ID del calendario que puedes encontrar abajo.",
         "step-5": "Haz clic en Guardar.",
@@ -169,10 +169,10 @@
         "fill-form": "¿No puedes hacer que funcione? Llena un formulario aquí: <link>Sugiere un evento en el Calendario del Refrigerador Comunitario de Seattle</link>"
     },
     "about-us": {
-        "title": "Acerca de los REFRIGERADORES COMUNITARIOS DE SEATTLE (Seattle Community Fridge)",
+        "title": "Acerca del REFRIGERADOR COMUNITARIO DE SEATTLE",
         "about-1": "Seattle Community Fridge es un grupo de ayuda mutua fundado en 2020, en respuesta a las urgentes necesidades de inseguridad alimentaria generadas por la pandemia de COVID. Sin embargo, pronto se hizo evidente que había muchas personas hambrientas que necesitaban los servicios que brindábamos. Desde entonces hemos construido y mantenido refrigeradores y despensas protegidas en toda el área metropolitana de Seattle.",
         "about-2": "Estamos dirigidos por voluntarios comunitarios. Trabajamos por la justicia alimentaria para todas las personas proporcionando lugares para donar alimentos, actualmente en cinco ubicaciones. Cada sitio cuenta con un refrigerador y una despensa; ambos están ubicados al aire libre y están disponibles en todo momento. También nos esforzamos por reducir el desperdicio de alimentos recolectando y distribuyendo alimentos de tiendas, restaurantes y otros negocios que, de otro modo, los habrían tirado. Usamos algunas donaciones monetarias para comprar alimentos estables y animamos a los miembros de la comunidad a ayudar a reabastecer los refrigeradores y las despensas. En la medida de lo posible, proporcionamos otros artículos, como calentadores de manos, ropa abrigadora, agua, botellas de agua y productos menstruales.",
-        "about-3": "SCF está compuesto por miembros de la comunidad y opera de manera no jerárquica, con consenso grupal en la formulación de ideas y en la toma de decisiones. No tenemos gastos más allá del almacenamiento ni de personal; todos somos miembros de la comunidad, como tú y las personas a las que servimos. Todos nuestros esfuerzos y las donaciones que recibimos están dedicados a asegurar que nuestros vecinos estén alimentados.",
+        "about-3": "SCF está compuesto por miembros de la comunidad y opera de manera no jerárquica, con consenso grupal en la formulación de ideas y en la toma de decisiones. No tenemos gastos más allá del almacenamiento ni personal; todos somos miembros de la comunidad, como tú y las personas a las que servimos. Todos nuestros esfuerzos y las donaciones que recibimos están dedicados a asegurar que nuestros vecinos estén alimentados.",
         "about-4": "Seattle Community Fridge no discrimina a ninguna persona por motivos de raza, color, afiliación religiosa, sexo, edad, origen nacional, estado civil, orientación sexual, discapacidad o identidad o expresión de género. No recopilamos ni compartimos la información de quienes acceden a los refrigeradores o donan a la organización, excepto cuando sea necesario para actividades voluntarias esenciales. Toda la comida y otras necesidades están disponibles gratuitamente para todos, sin restricciones, juicios ni control de acceso.",
         "mutual-aid-header": "¿Qué es la Ayuda Mutua?",
         "mutual-aid": "La ayuda mutua es solidaridad, no caridad. <bold>Todos se cuidan unos a otros</bold>, dan lo que pueden y toman lo que necesitan. La ayuda mutua es una <bold>una solución liderada por la comunidad</bold> para satisfacer esas necesidades y cerrar brechas. La Ayuda Mutua reconoce que el trabajo de caridad bienintencionado a menudo puede derivar en paternalismo y en la exacerbación de las desigualdades subyacentes a la pobreza y al hambre. Busca activamente evitar esta trampa.",
