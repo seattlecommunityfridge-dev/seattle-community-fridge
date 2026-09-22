@@ -15,11 +15,12 @@ export function proxy(request: NextRequest) {
   // Add localization cookie
   if (!request.cookies.has(localeCookieName)) {
     const header = request.headers.get('accept-language');
-
-    const idealLanguage = pick(available_languages, header);
-    if (idealLanguage) {
-      console.log(`[Proxy] set language to ${idealLanguage}`)
-      response.cookies.set(localeCookieName, idealLanguage);
+    if (header) {
+      const idealLanguage = pick(available_languages, header);
+      if (idealLanguage) {
+        console.log(`[Proxy] set language to ${idealLanguage}`)
+        response.cookies.set(localeCookieName, idealLanguage);
+      }
     }
   }
 

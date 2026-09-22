@@ -27,7 +27,6 @@ function ChangeLanguageButton(props: LanguageProps) {
     <DisclosureButton
       key={props.language_name}
       as="button"
-      onClick={""}
       aria-current={props.language_name ? 'page' : undefined}
       className={classNames(
         props.language_name ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white',
