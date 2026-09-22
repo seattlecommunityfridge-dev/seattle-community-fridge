@@ -7,6 +7,7 @@ type LocationProps = {
     id: string; // Used to refer to messages/en.json's descriptions
     name: string;
     image: string;
+    description: string;
     closest_stops: BusStop[]
 }
 
