@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
 import { NextIntlClientProvider } from 'next-intl';
+import { getLocale } from 'next-intl/server';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,13 +21,15 @@ export const metadata: Metadata = {
   description: "Seattle Community Fridge",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <link href="/backend/flowbite.css" rel="stylesheet" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
