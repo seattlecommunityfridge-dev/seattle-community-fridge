@@ -19,7 +19,13 @@
     "language-names": {
         "english": "English",
         "spanish": "Spanish",
-        "chinese-simplified": "Simplified Chinese"
+        "chinese-simplified": "Simplified Chinese",
+        "chinese-traditional": "Traditional Chinese",
+        "vietnamese": "Vietnamese",
+        "somali": "Somali",
+        "amharic": "Amharic",
+        "tagalog": "Tagalog",
+        "korean": "Korean"
     },
     "main": {
         "title": "Seattle Community Fridge",
