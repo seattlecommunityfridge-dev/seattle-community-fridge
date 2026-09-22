@@ -18,8 +18,14 @@
     },
     "language-names": {
         "english": "英文",
-        "spanish": "西班牙文",
-        "chinese-simplified": "简体中文"
+        "spanish": "西班牙语",
+        "chinese-simplified": "简体中文",
+        "chinese-traditional": "繁体中文",
+        "vietnamese": "越南语",
+        "somali": "索马里语",
+        "amharic": "阿姆哈拉语",
+        "tagalog": "他加禄语",
+        "korean": "韩文"
     },
     "main": {
         "title": "西雅图社区冰箱",
@@ -45,7 +51,7 @@
             "name": "Phinney Ridge",
             "address": "225 N 70th St, Seattle, WA 98103",
             "desc": "Woodland Park Presbyterian",
-            "full-description": "这台冰箱位于Phinney Ridge街区格林伍德街和70街的交叉路口。找到路口西南角格林伍德街上的公交车站，冰箱就在旁边。这里有一个全尺寸冰箱和一个中等大小的储藏室。"
+            "full-description": "这台冰箱位于Phinney Ridge街区Greenwood街和70街的交叉路口。找到路口西南角Greenwood街上的公交车站，冰箱就在旁边。这里有一个全尺寸冰箱和一个中等大小的储藏室。"
         },
         "north-beacon-hill": {
             "name": "North Beacon Hill",
@@ -55,22 +61,22 @@
             "link": "https://queertheland.com/"
         },
         "capitol-hill": {
-            "name": "Capitol Hill",
+            "name": "Capitol Hill (国会山)",
             "address": "745 19th Ave E, Seattle, WA 98112",
             "desc": "St Joseph Parish",
-            "full-description": "Capitol Hill冰箱位于19街和阿罗哈街交叉口的西南角，紧挨教堂墙壁，在公交车站后面。如果你站在马克里纳面包店门口，转过身来可以正好看到街对面的它。这里有一台全尺寸冰箱和全尺寸储藏室。"
+            "full-description": "Capitol Hill冰箱位于19街和Aloha街交叉口的西南角，紧挨教堂墙壁，在公交车站后面。如果你站在马克里纳面包(Macrina Bakery)店门口，转过身来可以正好看到街对面的它。这里有一台全尺寸冰箱和全尺寸储藏室。"
         },
         "burien": {
-            "name": "Burien",
-            "address": "11860 12th Avenue, South Burien, WA 98168 WA 98112",
+            "name": "Burien (布里恩)",
+            "address": "11860 12th Avenue, South Burien, WA 98168",
             "desc": "",
-            "full-description": "由西雅图社区冰箱内部一个独立团队管理，地址为华盛顿州南布里恩市第12大道11860号，邮编98168。通常那里有很多食物。"
+            "full-description": "由西雅图社区冰箱内部一个独立团队管理，地址为11860 12th Avenue, South Burien, WA 98168。通常那里有很多食物。"
         },
         "estelitas-central": {
-            "name": "Estelita’s Library (Central District) ",
+            "name": "Estelita’s Library (中央区)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
             "desc": "",
-            "full-description": "Estelita’s Library冰箱现已开放！它位于图书馆左侧。一台全尺寸冰箱、一部公共电话（由Futel提供）、一间大型储藏室和免费WiFi均已全面投入使用。街道水槽尚在施工中。"
+            "full-description": "Estelita’s Library冰箱现已开放！它位于图书馆左侧。一台全尺寸冰箱、一部公共电话（由Futel提供）、一间大型储藏室和免费WiFi均已全面投入使用。"
         }
     },
     "get-food": {
