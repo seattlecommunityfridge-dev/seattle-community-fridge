@@ -51,13 +51,13 @@ export default function About() {
                 <div className="w-2/3 mx-auto flex flex-wrap gap-2 justify-between items-center">
                     <Partner image={"/partners/BallardFoodBank.png"} name="Ballard Food Bank" url="https://www.ballardfoodbank.org/" />
                     <Partner image={"/partners/UDFoodBank.png"} name="University Food Bank" url="https://www.udistrictfoodbank.org/" />
+                    <Partner image={"/partners/RainierValleyFoodBank.png"} name="Rainier Valley Food Bank" url="https://www.rvfb.org/" />
                     <Partner image={"/partners/FreeFoodForAll.png"} name="Free Food For All" url="https://www.freefoodforall.org/" />
                     <Partner image={"/partners/QueerTheLand.png"} name="Queer The Land" url="https://queertheland.com/" />
                     <Partner image={"/partners/EstelitasLibrary.png"} name="Estelita's Library" url="https://estelitaslibrary.org/" />
                     <Partner image={"/partners/MagpieThrift.png"} name="Magpie Thrift" url="https://www.magpiethriftseattle.com/" />
                     <Partner image={"/partners/GulletStuffer.png"} name="Gullet Stuffer" url="https://www.gulletstuffer.com/" />
-                    <Partner image={"/partners/ImpactSalish.png"} name="Impact | Salish Sea Elementary" url="https://www.impactps.org/salishsea/" />
-                    <Partner image={"/partners/SweetPeaBakery.png"} name="Sweetpea's Cakes" url="https://www.cakesbysweetpea.com/" />
+                    <Partner image={"/partners/MiracleFoodNetwork.png"} name="Miracle Food Network" url="https://www.miraclefoodnetwork.org/" />
                     <Partner image={"/partners/EpiphanySchool.png"} name="Epiphany School" url="https://www.epiphanyschool.org/" />
                     <Partner image={"/partners/QueenAnneFarmersMarket.gif"} name="Queen Anne Farmers Market" url="https://qafm.org/" />
                     <Partner image={"/partners/LFFC Logo.svg"} name="Little Free Failure of Capitalism" url="https://lffc.us/" />
