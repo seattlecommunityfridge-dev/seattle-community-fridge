@@ -21,7 +21,7 @@ export default function Faq() {
                 </p>
                 <p className="answer">
                     {t.rich('a3-p2', {
-                        "link-usda": (chunks) => <Link href="https://www.usda.gov/Linkbout-usda/news/blog/save-money-knowing-when-food-safe">{chunks}</Link>
+                        "link-usda": (chunks) => <Link href="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-product-dating">{chunks}</Link>
                     })}
                 </p>
                 <p className="answer">
