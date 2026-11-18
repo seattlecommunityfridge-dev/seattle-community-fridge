@@ -11,13 +11,6 @@ type LocationProps = {
     closest_stops: BusStop[]
 }
 
-type DescriptionProps = {
-    name: string;
-    image: string;
-    description: string;
-    closest_stops: BusStop[];
-}
-
 export default function LocationDescription(locationProps: LocationProps) {
     const id = locationProps.id;
     const name = locationProps.name;
@@ -35,7 +28,11 @@ export default function LocationDescription(locationProps: LocationProps) {
                             <h2 className="location font-JosefinSans">
                                 {t_loc('name')}
                             </h2>
-  
+                            <p className="mt-4 text-gray-700">
+                                <em>
+                                    {t_loc('notice')}
+                                </em>
+                            </p>
                             <p className="mt-4 text-gray-700">
                                 {t_loc.rich('full-description', {
                                     "link": (chunks) => <Link href={t_loc('link')}>{chunks}</Link>

@@ -51,12 +51,14 @@
             "name": "Phinney Ridge",
             "address": "225 N 70th St, Seattle, WA 98103",
             "desc": "Woodland Park Presbyterian",
+            "notice": "",
             "full-description": "这台冰箱位于Phinney Ridge街区Greenwood街和70街的交叉路口。找到路口西南角Greenwood街上的公交车站，冰箱就在旁边。这里有一个全尺寸冰箱和一个中等大小的储藏室。"
         },
         "north-beacon-hill": {
             "name": "North Beacon Hill",
             "address": "1307 13th Ave S, Seattle, WA 98144",
             "desc": "",
+            "notice": "",
             "full-description": "North Beacon Hill冰箱由我们酷儿之地的好朋友们赞助，<link>Queer the Land</link>。这里有一个迷你冰箱和非常小的储藏室。",
             "link": "https://queertheland.com/"
         },
@@ -64,18 +66,21 @@
             "name": "Capitol Hill (国会山)",
             "address": "745 19th Ave E, Seattle, WA 98112",
             "desc": "St Joseph Parish",
+            "notice": "",
             "full-description": "Capitol Hill冰箱位于19街和Aloha街交叉口的西南角，紧挨教堂墙壁，在公交车站后面。如果你站在马克里纳面包(Macrina Bakery)店门口，转过身来可以正好看到街对面的它。这里有一台全尺寸冰箱和全尺寸储藏室。"
         },
         "burien": {
             "name": "Burien (布里恩)",
             "address": "11860 12th Avenue, South Burien, WA 98168",
             "desc": "",
+            "notice": "",
             "full-description": "由西雅图社区冰箱内部一个独立团队管理，地址为11860 12th Avenue, South Burien, WA 98168。通常那里有很多食物。"
         },
         "estelitas-central": {
             "name": "Estelita’s Library (中央区)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-            "desc": "",
+            "notice": "冰箱现在坏掉了。我们正在找日子就能修好。",
+            "desc": "（冰箱故障）",
             "full-description": "Estelita’s Library冰箱现已开放！它位于图书馆左侧。一台全尺寸冰箱、一部公共电话（由Futel提供）、一间大型储藏室和免费WiFi均已全面投入使用。"
         }
     },

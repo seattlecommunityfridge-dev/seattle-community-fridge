@@ -51,12 +51,14 @@
             "name": "Phinney Ridge",
             "address": "225 N 70th St, Seattle, WA 98103",
             "desc": "Woodland Park Presbyterian",
+            "notice": "",
             "full-description": "Este refrigerador está en la esquina de Greenwood y 70th en el vecindario Phinney Ridge. Busca la parada de autobús en Greenwood en la esquina suroeste; el refrigerador está justo al lado. Este es un refrigerador de tamaño completo y una despensa mediana."
         },
         "north-beacon-hill": {
             "name": "North Beacon Hill",
             "address": "1307 13th Ave S, Seattle, WA 98144",
             "desc": "",
+            "notice": "",
             "full-description": "Patrocinado por nuestros buenos amigos de <link>Queer the Land</link>. Este es un minirrefrigerador y una despensa pequeña.",
             "link": "https://queertheland.com/"
         },
@@ -64,18 +66,21 @@
             "name": "Capitol Hill",
             "address": "745 19th Ave E, Seattle, WA 98112",
             "desc": "Parroquia de San José (St. Joseph Parish)",
+            "notice": "",
             "full-description": "El refrigerador de Capitol Hill está en la esquina de la calle 19 y Aloha, en la esquina suroeste, justo contra la pared de la iglesia y escondido detrás de la parada del autobús. Si te paras en la puerta de la Panadería Macrina y te das la vuelta, estás viéndola justo al otro lado de la calle. Este es un refrigerador y despensa de tamaño completo."
         },
         "burien": {
             "name": "Burien",
             "address": "11860 12th Avenue, South Burien, WA 98168",
             "desc": "",
+            "notice": "",
             "full-description": "Gestionado por un grupo separado dentro de SCF en 11860 12th Avenue, South Burien, WA 98168. Usualmente hay mucha comida ahí."
         },
         "estelitas-central": {
             "name": "Biblioteca Estelita (Distrito Central)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-            "desc": "",
+            "notice": "El refrigerador está actualmente fuera de servicio.",
+            "desc": "(Fuera de servicio)",
             "full-description": "¡El refrigerador de la Biblioteca Estelita ya está disponible! Está ubicado en el lado izquierdo de la biblioteca. El refrigerador de tamaño completo, el teléfono público (proporcionado por Futel), la despensa grande y el WiFi gratuito están completamente operativos."
         }
     },
