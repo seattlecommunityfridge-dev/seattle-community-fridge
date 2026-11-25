@@ -79,8 +79,8 @@
         "estelitas-central": {
             "name": "Estelita’s Library (Central District)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-            "desc": "Refrigerator out of order",
-            "notice": "This fridge is currently out of order. We are currently determining a date to have it fixed.",
+            "desc": "",
+            "notice": "",
             "full-description": "The Estelita's Library fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational."
         }
     },

@@ -79,8 +79,8 @@
         "estelitas-central": {
             "name": "Biblioteca Estelita (Distrito Central)",
             "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-            "notice": "El refrigerador está actualmente fuera de servicio.",
-            "desc": "(Fuera de servicio)",
+            "notice": "",
+            "desc": "",
             "full-description": "¡El refrigerador de la Biblioteca Estelita ya está disponible! Está ubicado en el lado izquierdo de la biblioteca. El refrigerador de tamaño completo, el teléfono público (proporcionado por Futel), la despensa grande y el WiFi gratuito están completamente operativos."
         }
     },
